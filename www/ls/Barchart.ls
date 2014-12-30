@@ -63,5 +63,10 @@ class ig.Barchart
         ..attr \class \axis
         ..html -> it.year.toString!substr 2
 
-
-
+    @legend = @element.append \ul
+      ..attr \class \legend
+      ..selectAll \li .data ig[@groupBy] .enter!append \li
+        ..append \div
+          ..style \background-color (.color)
+        ..append \span
+          ..html (.name)

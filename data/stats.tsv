@@ -19,7 +19,7 @@ STD	other	2	19890306-0	Antonov	Ariana Afghan Airlines
 UNK	military	5	19890310-0	Antonov 26	Força Aérea Popular de Angola		
 ICL	passDomestic	24	19890310-1	Fokker F-28 Fellowship 1000	Air Ontario	YHD	YWG
 APR	passDomestic	10	19890310-2	IRMA/Britten-Norman BN-2A Islander	Aero Condor		LIM
-APR	ferry	2	19890315-0	NAMC YS-11A-300F	Mid Pacific Airlines	HUF	LAF
+APR	other	2	19890315-0	NAMC YS-11A-300F	Mid Pacific Airlines	HUF	LAF
 APR	cargo	2	19890318-0	McDonnell Douglas DC-9-33RC	Evergreen International Airlines	FWH	TIK
 APR	cargo	25	19890321-0	Boeing 707-349C	Transbrasil	MAO	GRU
 ENR	exec	3	19890410-0	Beechcraft 200 Super King Air	Southern Company Services	PNS	PDK
@@ -29,10 +29,10 @@ ICL	cargo	7	19890426-0	Sud Aviation SE-210 Caravelle 11R	Aerosucre Colombia	BAQ	
 MNV	other	5	19890501-0	Antonov 2R	Aeroflot, Privolzhsk Civil Aviation Directorate		
 MNV	other	2	19890502-0	Douglas C-47A-90-DL	Monroe County Mosquito Control District	MTH	MTH
 ENR	passDomestic	6	19890505-1	Britten-Norman BN-2A Trislander Mk.III-2	Aero Cozumel	CZA	CZM
-APR	ferry	1	19890506-1	Embraer 110P1 Bandeirante	Southern Express	MEM	MRC
+APR	other	1	19890506-1	Embraer 110P1 Bandeirante	Southern Express	MEM	MRC
 ENR	military	2	19890508-2	Handley Page HP-137 Jetstream T.2	Royal Navy - Fleet Air Arm (FAA)		
 APR	passDomestic	16	19890508-4	Beechcraft 99	Holmström Flyg	ARN	OSK
-ENR	ferry	1	19890510-0	Beechcraft 200 Super King Air	Mesa Airlines	SMO	FMN
+ENR	other	1	19890510-0	Beechcraft 200 Super King Air	Mesa Airlines	SMO	FMN
 ENR	passDomestic	9	19890520-0	Cessna 208 Caravan I	Policía Nacional del Perú	TGI	LIM
 LDG	other	2	19890521-0	Consolidated PBY-5A Catalina	Enrico Recchi		LIMA
 APR	private	3	19890522-1	Douglas C-47A-25-DK	Condor Enterprise	AUZ	
@@ -46,7 +46,7 @@ ENR	passDomestic	59	19890621-0	de Havilland Canada DHC-5D Buffalo	Fuerza Aérea 
 MNV	other	4	19890626-3	Douglas C-118A	Conifair Aviation	YVB	YVB
 ENR	passDomestic	30	19890628-1	Fokker F-27 Friendship 600RF	Somali Airlines	HGA	MGQ
 LDG	passDomestic	3	19890628-2	British Aerospace BAe-748-435 Srs. 2B	Cameroon Airlines	DLA	YAO
-TOF	ferry	2	19890629-0	Dassault Falcon 20DC	Phoenix Air	KVPC	MGM
+TOF	other	2	19890629-0	Dassault Falcon 20DC	Phoenix Air	KVPC	MGM
 LDG	military	20	19890708-0	Antonov 12BP	Soviet Air Force		VVCR
 MNV	other	10	19890719-0	Antonov 26	Aeroflot, Yakutsk Civil Aviation Directorate		PWE
 LDG	passDomestic	111	19890719-1	McDonnell Douglas DC-10-10	United Airlines	DEN	ORD
@@ -94,7 +94,7 @@ ENR	cargo	6	19891105-0	Handley Page HPR-7 Herald 401	Aerosucre Colombia	BOG	CLO
 APR	exec	5	19891107-0	Learjet 25C	Belair Táxi Aéreo		PLU
 UNK	passDomestic	2	19891109-0	Pilatus Britten-Norman BN-2A-26 Islander	Weasua Air Transport		
 ENR	military	15	19891110-0	CASA C-212-M Aviocar 300	Royal Lesotho Defence Force	UNE	FXMU
-ENR	ferry	2	19890112-1	Beechcraft 200 Super King Air	Corporación Metalmen	VLN	SVFM
+ENR	other	2	19890112-1	Beechcraft 200 Super King Air	Corporación Metalmen	VLN	SVFM
 APR	passDomestic	34	19891121-0	Antonov 24B	Aeroflot, Uralsk Civil Aviation Directorate	PEE	TJM
 ENR	passDomestic	107	19891127-0	Boeing 727-21	Avianca	BOG	CLO
 APR	cargo	5	19891127-1	Lockheed L-100-20 Hercules	Tepper Aviation Inc	KMN	JMB
@@ -110,8 +110,8 @@ ENR	passDomestic	9	19900102-1	CASA/Nurtanio NC-212 Aviocar 200	Pelita Air Servic
 ENR	passDomestic	27	19900113-0	Tupolev 134A	Aeroflot, North Kavkaz Civil Aviation Directorate	TJM	UFA
 ENR	passDomestic	23	19900115-0	CASA C-212 Aviocar 200	Servicios Aéreos Nacionales - SANSA	SJO	PMZ
 ENR	cargo	1	19900117-0	Cessna 208A Cargomaster	Federal Express	DEN	MTJ
-ENR	ferry	2	19900118-0	Learjet 23	Aero Flight Services	YIP	SDF
-LDG	ferry	1	19900118-1	Beechcraft A100 King Air	Epps Air Service	PDK	ATL
+ENR	other	2	19900118-0	Learjet 23	Aero Flight Services	YIP	SDF
+LDG	other	1	19900118-1	Beechcraft A100 King Air	Epps Air Service	PDK	ATL
 APR	exec	7	19900119-0	Gulfstream Aerospace G-1159 Gulfstream II	Eastman Kodak	GGG	LIT
 ENR	military	24	19900123-0	CASA C-212 Aviocar 200	Marina Venezolana	CCS	PYH
 APR	passInternational	73	19900125-0	Boeing 707-321B	Avianca	MDE	JFK
@@ -134,7 +134,7 @@ APR	cargo	3	19900321-0	Lockheed L-188CF Electra	TAN Honduras (Transportes Aéreo
 TOF	passDomestic	4	19900323-0	Antonov 26	Cubana de Aviación	SCU	
 ENR	military	25	19900327-0	CASA C-212-M Aviocar 300	Angolan Government		NOV
 APR	cargo	11	19900327-1	Ilyushin 76MD		UTKK	KBL
-ENR	ferry	1	19900405-2	Lockheed C-121S Super Constellation	Aerolineas Mundo - AMSA	SJU	SDQ
+ENR	other	1	19900405-2	Lockheed C-121S Super Constellation	Aerolineas Mundo - AMSA	SJU	SDQ
 LDG	cargo	2	19900406-0	Learjet 25C	Transamérica Táxi Aéreo	SDU	JDF
 ICL	passDomestic	5	19900412-0	de Havilland Canada DHC-6 Twin Otter 300	Widerøes Flyveselskap	VRY	BOO
 ICL	passDomestic	20	19900418-1	de Havilland Canada DHC-6 Twin Otter 200	AeroPerlas	OTD	PAC
@@ -147,7 +147,7 @@ LDG	cargo	2	19900504-1	GAF Nomad N.24A	Tar Heel Aviation	RDU	ILM
 ICL	cargo	27	19900505-0	Douglas DC-6BF	Aerial Transit Company	GUA	MIA
 APR	passDomestic	21	19900510-0	Fairchild F-27J		TAP	TGZ
 ENR	passDomestic	11	19900511-0	Cessna 500 Citation I	Air North Queensland	PPP	MRG
-TOF	ferry	1	19900106-0	Lockheed L-1329 JetStar 731	Grecoair	MIA	DAL
+TOF	other	1	19900106-0	Lockheed L-1329 JetStar 731	Grecoair	MIA	DAL
 MNV	military	10	19900511-2	Transall C-160D	Luftwaffe	ETNW	
 ICL	passDomestic	25	19900518-2	Beechcraft 1900C-1	Aerolift Philippines	MNL	SUG
 MNV	other	2	19900519-0	Douglas C-53D-DO (DC-3)	K&K Aircraft	MRB	WGO
@@ -163,11 +163,11 @@ ENR	military	18	19900821-1	Beechcraft 1900C-1	Republic of China Air Force - ROCA
 TOF	exec	3	19900823-0	Grumman G-159 Gulfstream I	Rowan Drilling Comp. Marine	IAH	MSY
 LDG	military	1	19900825-0	Lockheed C-130H Hercules	Royal Malaysian Air Force - RMAF	KCH	SBW
 ICL	military	13	19900829-0	Lockheed C-5A Galaxy	United States Air Force - USAF	RMS	FRF
-ENR	ferry	18	19900911-0	Boeing 727-247	Faucett	KEF	YQX
+ENR	other	18	19900911-0	Boeing 727-247	Faucett	KEF	YQX
 ENR	private	2	19900911-1	Morane Saulnier MS.760B Paris	Stonewall Transport	ABQ	LRU
 APR	passDomestic	4	19900914-0	Yakovlev 42	Aeroflot, North Kavkaz Civil Aviation Directorate	VOG	SVX
 TOF	passDomestic	2	19900914-1	Cessna 208 Caravan I	Placido Ramirez Buitrago	PEI	CLO
-TOF	ferry	1	19900920-1	Boeing 707-321B	Omega Air Inc	MZJ	DMA
+TOF	other	1	19900920-1	Boeing 707-321B	Omega Air Inc	MZJ	DMA
 ICL	passDomestic	12	19900920-2	Embraer 110P1 Bandeirante	Governo do Estado de Pernambuco	FEN	REC
 APR	private	4	19900924-0	Cessna 500 Citation I	Hi-Tech Helicopters	VNY	SBP
 APR	military	2	19900924-1	Beechcraft 200 Super King Air	Svensk Flygvapnet (Swedish Air Force)		HAD
@@ -247,12 +247,12 @@ ICL	passDomestic	15	19910709-0	CASA C-212 Aviocar 200	Aerochasqui	BLP	PCL
 APR	passDomestic	13	19910710-0	Beechcraft C99	L'Express Airlines	MOB	BHM
 APR	passInternational	261	19910711-0	McDonnell Douglas DC-8-61		JED	SKO
 ICL	passDomestic	1	19910715-0	Antonov 2	Aeroflot	URJ	
-ICL	ferry	3	19910722-0	Learjet 23	Jetstream Inc.	DET	MDW
+ICL	other	3	19910722-0	Learjet 23	Jetstream Inc.	DET	MDW
 ENR	passDomestic	9	19910725-1	Britten-Norman BN-2A-6 Islander	Vanair	OLJ	SON
 MNV	other	2	19910806-0	Canadair CL-215-1A10		GOA	
 APR	passDomestic	6	19910806-1	IRMA/Britten-Norman BN-2A-27 Islander		AIT	RAR
 ENR	cargo	9	19910814-1	Ilyushin 18V	Tarom	OTP	TSR
-LDG	ferry	3	19910815-0	Fokker F-27 Friendship 100	Air Bissau	KAN	BKO
+LDG	other	3	19910815-0	Fokker F-27 Friendship 100	Air Bissau	KAN	BKO
 ENR	military	9	19910815-1	Antonov 26	Soviet Air Force	BVV	
 APR	passDomestic	69	19910816-1	Boeing 737-2A8	Indian Airlines	CCU	IMF
 UNK	passDomestic	4	19910820-0	Britten-Norman BN-2A-26 Islander	Temsco Helicopters	KTN	WRG
@@ -274,7 +274,7 @@ UNK	military	2	19910926-0	Antonov 26	Soviet Air Force	ROV	KBP
 LDG	passDomestic	1	19910929-0	Curtiss C-46A-45-CU Commando	CORAL Colombia	VVC	
 ICL	military	135	19911005-0	Lockheed C-130H-30 Hercules	Tentara Nasional Indonesia-AU (Air Force)	HLP	BDO
 ENR	other	6	19911011-1	Curtiss C-46D-20-CU Commando	Lineas Aéreas Nacionales - LANSA		
-ENR	ferry	2	19911016-1	Lockheed P-3A Orion	Aero Union	SBA	MSO
+ENR	other	2	19911016-1	Lockheed P-3A Orion	Aero Union	SBA	MSO
 ENR	passDomestic	17	19911025-0	Britten-Norman BN-2A Trislander Mk.III-2	Bali International Air Service	PKY	SMQ
 ENR	military	5	19911029-0	Boeing 707-368C	Royal Australian Air Force - RAAF	RAAF	AVV
 APR	passDomestic	51	19911107-0	Yakovlev 40	Aeroflot, North Kavkaz Civil Aviation Directorate	ESL	MCX
@@ -289,13 +289,13 @@ APR	military	16	19911129-1	Embraer C-95C Bandeirante	Força Aérea Brasileira - 
 ENR	military	4	19911202-0	Dassault Falcon 20E	L'Armée de L'Air	LFSX	LFPV
 UNK	military	4	19911202-1	Antonov 2	Hrvatske Zracne Snage		
 ENR	exec	9	19911211-0	Beechcraft Beechjet 400A	Bruno's Inc.	RMG	HSV
-ENR	ferry	8	19911211-1	Curtiss C-46F-1-CU Commando	Líneas Aéreas Suramericanas	MDE	BOG
+ENR	other	8	19911211-1	Curtiss C-46F-1-CU Commando	Líneas Aéreas Suramericanas	MDE	BOG
 ENR	passDomestic	28	19911222-0	Douglas DC-3A	Classic Wings	EDFE	EDFE
 UNK	military	2	19911225-0	Douglas C-47D	Fuerza Aérea Dominicana - FAD		
 UNK	military	1	19911227-1	Douglas C-47B-15-DK (DC-3)	Elleniki Polemikí Aeroporía		
 MNV	private	3	19911228-0	Beechcraft 1900C		BDR	BDR
 ENR	cargo	5	19911229-0	Boeing 747-2R7F	China Airlines	TPE	ANC
-APR	ferry	4	19920727-0	Vickers 798D Viscount	Aero Eslava	PBC	MEX
+APR	other	4	19920727-0	Vickers 798D Viscount	Aero Eslava	PBC	MEX
 APR	passDomestic	2	19920103-0	Beechcraft 1900C-1		PLB	SLK
 UNK	private	2	19920123-0	Beechcraft B99	Nature Island Express		
 APR	military	3	19920123-1	Grumman HU-16B Albatross	Elleniki Polemikí Aeroporía		LGEL
@@ -325,11 +325,11 @@ ENR	passInternational	47	19920606-0	Boeing 737-204	COPA Panama - Compañía Pana
 APR	passDomestic	5	19920607-0	CASA C-212 Aviocar 200		SIG	MAZ
 ENR	passDomestic	1	19920607-1	Tupolev 154	Aeroflot Russian International Airlines	GRV	VKO
 APR	passDomestic	3	19920608-0	Beechcraft C99	GP Express Airlines	ATL	ANB
-TOF	ferry	2	19920612-0	Learjet 25B	Jet Charter Group	SBM	MTW
+TOF	other	2	19920612-0	Learjet 25B	Jet Charter Group	SBM	MTW
 APR	exec	4	19920616-0	Beechcraft 200 Super King Air	Omega Air Inc	MTN	ILG
 APR	cargo	10	19920622-1	Antonov 12A	Krasnoyarskie Avialinii	IAA	OMS
 APR	cargo	3	19920622-2	Boeing 737-2A1C	VASP - Viação Aérea São Paulo	RBR	CZS
-ENR	ferry	3	19920625-2	CASA/Nurtanio NC-212-A4 Aviocar 100	Dirgantara Air Services	XSP	PNK
+ENR	other	3	19920625-2	CASA/Nurtanio NC-212-A4 Aviocar 100	Dirgantara Air Services	XSP	PNK
 UNK	military	19	19920705-1	Shaanxi Yunshuji Y-8D	Sri Lanka Air Force		
 APR	military	2	19920709-1	Dornier Do 28D-2 Skyservant	Luftwaffe		ETSB
 UNK	military	3	19920709-0	Cessna 650 Citation III	Ejército de Chile		
@@ -385,7 +385,7 @@ APR	exec	8	19921218-0	Cessna 550 Citation II	US Department of Energy	ATY	BIL
 LDG	passInternational	56	19921221-0	McDonnell Douglas DC-10-30CF	Martinair Holland	AMS	FAO
 APR	passDomestic	159	19921222-0	Boeing 727-2L5	Libyan Arab Airlines	BEN	TIP
 ENR	military	4	19920108-0	Alenia G-222TCM	Aeronautica Militare Italiana - AMI	PSA	BLQ
-APR	ferry	4	19930715-0	Beechcraft 300 Super King Air	National Remote Sensing Agency	AMD	BOM
+APR	other	4	19930715-0	Beechcraft 300 Super King Air	National Remote Sensing Agency	AMD	BOM
 APR	passInternational	4	19930106-0	de Havilland Canada DHC-8-311		BRE	CDG
 APR	exec	9	19930108-0	Learjet 35A	Aero-Fly	MEX	HMO
 ICL	passDomestic	15	19930109-0	Hawker Siddeley HS-748-234 Srs. 2	Bouraq Indonesia Airlines	SUB	BDJ
@@ -466,7 +466,7 @@ TOF	passDomestic	82	19930828-2	Yakovlev 40	Tajikistan Airlines	UTOD	DYU
 LDG	passDomestic	24	19930826-2	Let L-410UVP-E	Sakha Avia		ADH
 ENR	military	6	19930823-0	Antonov 12	Russian Air Force		
 MNV	military	2	19930822-0	Canadair CL-215-1A10	Elleniki Polemikí Aeroporía	LGEL	LGEL
-APR	ferry	2	19930817-0	Swearingen SA226-TC Metro II	Aviation Services	FRG	HFD
+APR	other	2	19930817-0	Swearingen SA226-TC Metro II	Aviation Services	FRG	HFD
 ENR	other	1	19930816-0	Cessna 208B Super Cargomaster	Aviation & Services Europe	TNF	CEQ
 APR	passDomestic	19	19930731-1	Dornier 228-101	Everest Air	KTM	BHR
 APR	other	1	19930730-1	Shorts SC.7 Skyvan 3-100	Hornbill Skyways		MYY
@@ -496,7 +496,7 @@ APR	passDomestic	8	19940429-0	Cessna 208 Caravan I	Lineas Aéreas de los Liberta
 APR	passDomestic	2	19940426-1	Cessna 208A Cargomaster	Penta - Pena Transportes Aéreos	ITB	JCR
 APR	passInternational	264	19940426-0	Airbus A300B4-622R	China Airlines	TPE	NKM
 ENR	passDomestic	10	19940425-1	IRMA/Britten-Norman BN-2A-21 Islander	Dirgantara Air Services	PNK	NPO
-ENR	ferry	1	19940406-3	Cessna 208B Grand Caravan	Nozaki Sangyo	OKJ	HIW
+ENR	other	1	19940406-3	Cessna 208B Grand Caravan	Nozaki Sangyo	OKJ	HIW
 APR	exec	12	19940406-1	Dassault Falcon 50	Rwanda Government	DAR	KGL
 ENR	passDomestic	17	19940406-0	de Havilland Canada DHC-6 Twin Otter 300	Fuerza Aérea Ecuatoriana	SETA	SELT
 LDG	passInternational	3	19940404-1	Saab 340B	KLM Cityhopper	AMS	CWL
@@ -505,7 +505,7 @@ APR	passInternational	4	19940323-1	Cessna 650 Citation VI	Orion Aero Táxi	MAO	
 ENR	passInternational	75	19940323-0	Airbus A310-304	Aeroflot Russian International Airlines	SVO	HKG
 ICL	passDomestic	6	19940321-2	Britten-Norman BN-2A-21 Islander	Aurukun Air Services	WEI	AUU
 UNK	private	1	19940319-1	de Havilland Canada DHC-6 Twin Otter 300	Light Air Transport & Technical Services	TIP	TIP
-ICL	ferry	2	19940318-1	Grumman G-73T Turbo Mallard	Chalk's International Airlines		EYW
+ICL	other	2	19940318-1	Grumman G-73T Turbo Mallard	Chalk's International Airlines		EYW
 ICL	cargo	2	19940318-0	Douglas DC-3C	Salair	GEG	PDX
 ENR	military	32	19940317-0	Lockheed C-130H Hercules	Islamic Republic of Iran Air Force - IRIAF		THR
 ENR	military	8	19940314-0	Lockheed AC-130H Hercules	United States Air Force - USAF	MBA	MGQ
@@ -518,7 +518,7 @@ ENR	cargo	1	19940225-1	Vickers 813 Viscount	British World Airways	EDI	CVT
 APR	cargo	13	19940224-0	Antonov 12BP	Aeroflot	VOG	NAL
 ENR	cargo	7	19940118-1	Antonov 22	Russian Air Force	KLD	ROV
 APR	other	2	19940127-0	IAI 1124A Westwind II	Millar Western Industries	YEG	YLJ
-APR	ferry	2	19940118-0	Learjet 24D	Scibe Airlift Cargo Zaire	COO	FIH
+APR	other	2	19940118-0	Learjet 24D	Scibe Airlift Cargo Zaire	COO	FIH
 ENR	passDomestic	125	19940103-2	Tupolev 154M	Baikal Airlines	IKT	DME
 APR	passDomestic	5	19940107-0	British Aerospace 4101 Jetstream 41		IAD	CMH
 ICL	other	2	19940102-0	Britten-Norman BN-2A-9 Islander	JSCTD	EOZ	
@@ -534,7 +534,7 @@ TOF	passDomestic	1	19941214-0	Learjet 35A	Air Charter	SVO	MQF
 APR	passDomestic	15	19941213-0	British Aerospace 3201 Jetstream 32		GSO	RDU
 ENR	passInternational	1	19941210-0	Boeing 747-283B	Philippine Air Lines	CEB	NRT
 ICL	cargo	1	19941204-0	Cessna 208B Grand Caravan	Air Team	OSL	BGO
-TOF	ferry	4	19941124-2	de Havilland Canada DHC-6 Twin Otter 300	Kenn Borek Air		
+TOF	other	4	19941124-2	de Havilland Canada DHC-6 Twin Otter 300	Kenn Borek Air		
 ENR	passDomestic	7	19941122-1	IRMA/Britten-Norman BN-2A-20 Islander	Southwest Air	SBC	BVP
 ENR	cargo	1	19941116-0	Beechcraft C99	Ameriflight	BUR	OAK
 LDG	passDomestic	6	19941105-0	Yakovlev 40	Servicios Aéreos Amazonicos		SQU
@@ -550,8 +550,8 @@ TOF	cargo	8	19940930-0	Antonov 8	MAP Arsenyev MSZ	UHMG	PVX
 TOF	passDomestic	8	19940929-1	Rockwell 1121B Jet Commander	Radeair	COR	
 TOF	passDomestic	1	19940926-2	Douglas C-47D	Transporte Aéreo Militar - TAM Paraguay	BFA	ASU
 ENR	passDomestic	28	19940926-0	Yakovlev 40	Cheremshanka Airlines	KJA	UNIT
-ENR	ferry	2	19940923-1	Embraer 110EJ Bandeirante	Purus Aerotaxi	FEJ	TRQ
-TOF	ferry	6	19940923-0	Lockheed L-100-30 Hercules		HKG	HLP
+ENR	other	2	19940923-1	Embraer 110EJ Bandeirante	Purus Aerotaxi	FEJ	TRQ
+TOF	other	6	19940923-0	Lockheed L-100-30 Hercules		HKG	HLP
 APR	passInternational	5	19940918-0	BAC One-Eleven 515FB	Oriental Airlines	TUN	TMR
 ENR	military	4	19940917-1	Learjet 35A	Golden Eagle Aviation		
 ICL	passDomestic	3	19940917-0	de Havilland Canada DHC-6 Twin Otter 100	Pacific Coastal Airlines		
@@ -561,7 +561,7 @@ APR	passDomestic	132	19940908-0	Boeing 737-3B7	USAir	ORD	PIT
 MNV	other	5	19940827-0	CASA C-212 Aviocar 200	US Drug Enforcement Administration - DEA		PCL
 ENR	passDomestic	44	19940821-1	ATR-42-312	Royal Air Maroc - RAM	AGA	CMN
 APR	military	47	19940804-0	Antonov 12	Russian Air Force	HTA	
-UNK	ferry	1	19940804-1	Beechcraft A100 King Air	Westchester Air	KAQW	HPN
+UNK	other	1	19940804-1	Beechcraft A100 King Air	Westchester Air	KAQW	HPN
 MNV	other	3	19940813-1	Lockheed C-130A Hercules	Hemet Valley Flying Service	HMT	HMT
 UNK	cargo	7	19940731-0	Antonov 26B			LQBI
 ENR	passDomestic	21	19940719-1	Embraer 110P1 Bandeirante	Alas Chiricanas	ONX	
@@ -578,10 +578,10 @@ ICL	passInternational	10	19950120-0	Dassault Falcon 20E	Leadair UniJet	LBG	SBZ
 TOF	passDomestic	3	19950120-1	Let L-410UVP	Abakan Airlines	KJA	ABA
 APR	other	2	19950125-0	Cessna 550 Citation II	Viessmann Werke		EDFQ
 ICL	passDomestic	2	19950128-0	Beechcraft 200 Super King Air	SAL - Sociedade de Aviaçao Ligeira	CFF	LAD
-APR	ferry	4	19950130-0	ATR-72-202	Transasia Airways		TSA
+APR	other	4	19950130-0	ATR-72-202	Transasia Airways		TSA
 MNV	other	7	19950210-0	Antonov 70	Antonov Design Bureau	GML	GML
 UNK	military	3	19950214-0	Dornier Do 28D-2 Skyservant	Turkish Army		
-TOF	ferry	3	19950216-0	McDonnell Douglas DC-8-63F	Air Transport International - ATI	MCI	CEF
+TOF	other	3	19950216-0	McDonnell Douglas DC-8-63F	Air Transport International - ATI	MCI	CEF
 LDG	military	10	19950221-1	Shin Meiwa US-1A	Japan Maritime Self Defence Force - JMSDF		
 APR	exec	2	19950303-0	Cessna 208B Grand Caravan	DMC Flying Service	SAV	GVL
 APR	cargo	9	19950316-0	Antonov 26B	Ukraine Flight State Academy	PKC	UHPD
@@ -615,16 +615,16 @@ APR	cargo	2	19950701-1	de Havilland Canada C-7A Caribou	Vanimo Trading	POM	TBG
 ENR	passDomestic	15	19950712-1	de Havilland Canada DHC-6 Twin Otter 300	Milne Bay Air	GUR	
 TOF	passDomestic	1	19950717-4	de Havilland Canada DHC-6 Twin Otter 300	Merpati Nusantara Airlines	NTI	
 APR	passDomestic	51	19950110-1	Douglas DC-9-14	Intercontinental de Aviación	BOG	CTG
-ENR	ferry	1	19950719-1	Douglas C-47A-75-DL (DC-3C)	N.F. Stadler	ELM	MKC
+ENR	other	1	19950719-1	Douglas C-47A-75-DL (DC-3C)	N.F. Stadler	ELM	MKC
 ICL	passDomestic	2	19950725-0	Britten-Norman BN-2A-20 Islander	Transniugini Airways		
 APR	military	3	19950731-1	de Havilland Canada DHC-4A Caribou	Royal Malaysian Air Force - RMAF	LBU	LBU
 ICL	other	3	19950802-0	Antonov 2R	Aero Air	QRA	JMB
 ENR	passDomestic	10	19950809-0	Hawker Siddeley HS-748-216 Srs. 2A	Bouraq Indonesia Airlines	LUV	KNG
 APR	passInternational	65	19950809-1	Boeing 737-2H6	Aviateca	GUA	SAL
 ENR	passDomestic	8	19950814-0	Embraer 110P1 Bandeirante	AIRES Colombia	NVA	CLO
-APR	ferry	1	19950819-1	Douglas C-47B-1-DL (DC-3C)	Air North	YVR	YPR
+APR	other	1	19950819-1	Douglas C-47B-1-DL (DC-3C)	Air North	YVR	YPR
 ENR	passDomestic	8	19950821-0	Embraer 120ER Brasilia		ATL	GPT
-ENR	ferry	1	19950901-1	Shorts SC.7 Skyvan 3-200	North Star Air Cargo	FWL	MRI
+ENR	other	1	19950901-1	Shorts SC.7 Skyvan 3-200	North Star Air Cargo	FWL	MRI
 APR	military	6	19950831-0	Antonov 26	Force Aérienne de la République du Mali		
 APR	passDomestic	22	19950909-0	CASA C-212 Aviocar 200	SATENA	VVC	LMC
 MNV	military	7	19950902-0	British Aerospace Nimrod MR.2P	Royal Air Force - RAF		
@@ -705,16 +705,16 @@ TOF	passInternational	3	19960613-0	McDonnell Douglas DC-10-30	Garuda Indonesia A
 ICL	cargo	10	19960606-2	Ilyushin 76MD		FIH	ATH
 LDG	private	4	19960609-3	Boeing 727-286	Iran Air	THR	RAS
 TOF	private	2	19960604-0	Learjet 25C	Aeroexecutivos Táxi Aéreo	RAO	RAO
-APR	ferry	1	19960519-1	Britten-Norman BN-2A-26 Islander	Loganair	INV	LWK
+APR	other	1	19960519-1	Britten-Norman BN-2A-26 Islander	Loganair	INV	LWK
 TOF	military	4	19960519-0	Embraer C-95A Bandeirante	Força Aérea Brasileira - FAB	CRQ	
 TOF	other	2	19960515-1	Beechcraft 200 Super King Air	R & B Leasing	TCB	
 ENR	passDomestic	4	19960512-0	Beechcraft 300LW Super King Air	Airlink Luftverkehrs GmbH	SZG	LOAG
 ENR	passDomestic	1	19960511-2	Britten-Norman BN-2A-20 Islander	Milne Bay Air	MYX	MWG
 ENR	passDomestic	110	19960511-0	McDonnell Douglas DC-9-32	ValuJet Airlines	MIA	ATL
 APR	passDomestic	16	19960510-1	de Havilland Canada DHC-6 Twin Otter 200	Aero Servicios Empresariales	DGO	
-ENR	ferry	2	19960509-0	de Havilland Canada DHC-3 Otter	Buffalo Narrows Airways	YDQ	YVT
+ENR	other	2	19960509-0	de Havilland Canada DHC-3 Otter	Buffalo Narrows Airways	YDQ	YVT
 LDG	passDomestic	53	19960503-0	Antonov 24RV	Federal Airlines	WHF	KRT
-APR	ferry	1	19960424-1	Reims Cessna F406 Caravan II	Tanzanair - Tanzania Air Services	DAR	HTMG
+APR	other	1	19960424-1	Reims Cessna F406 Caravan II	Tanzanair - Tanzania Air Services	DAR	HTMG
 UNK	military	8	19960405-2	Xian Yunshuji Y-7H	Force Aérienne de la République Islamique de Mauritanie	NDB	NKC
 APR	passDomestic	6	19960405-1	Dornier 228-212	Formosa Airlines	TSA	MFK
 ENR	cargo	20	19960405-0	Ilyushin 76TD	Krasnoyarskie Avialinii	UNNE	PKC
@@ -726,7 +726,7 @@ APR	cargo	8	19960227-1	Antonov 12BP	Aero Tropical	LAD	LBZ
 ENR	military	91	19960226-0	Lockheed C-130H Hercules	Al Quwwat al-Jawwiya As-Sudaniya (Sudanese Air Force)	EBD	KRT
 APR	other	10	19960222-1	Antonov 24RV	Autoritatea Aeronautica Civila Romana	BBU	BAY
 APR	exec	10	19960219-1	Cessna 550 Citation II	Private Wings	THF	SZG
-APR	ferry	2	19960216-1	de Havilland Canada DHC-6 Twin Otter 300	AVCOM - Aviones Comerciales De Guatemala	GUA	
+APR	other	2	19960216-1	de Havilland Canada DHC-6 Twin Otter 300	AVCOM - Aviones Comerciales De Guatemala	GUA	
 ICL	passDomestic	10	19960212-0	GAF Nomad N.24A	Haiti Express Airways	PAP	CAP
 APR	exec	8	19960206-1	Cessna 500 Citation I	Aérotaxi Cachanilla	TIJ	ESE
 ENR	passInternational	189	19960206-0	Boeing 757-225		POP	YQX
@@ -736,7 +736,7 @@ ENR	passDomestic	5	19960129-0	Cessna 208 Caravan I	Sounds Air	WLG	PCN
 APR	military	14	19960118-0	Hawker Siddeley HS-125-700B	Nigerian Government		KAN
 ENR	passInternational	1	19960108-1	Britten-Norman BN-2A-27 Islander	Mustique Airways	UNI	BGI
 ENR	military	22	19961224-1	Hindustan Aeronautics Ltd. HAL-748-219 Srs. 2	Indian Air Force - IAF	VOTX	HYD
-APR	ferry	2	19961224-0	Learjet 35A	Aircraft Charter Group Inc	BDR	LEB
+APR	other	2	19961224-0	Learjet 35A	Aircraft Charter Group Inc	BDR	LEB
 MNV	other	6	19961222-0	McDonnell Douglas DC-8-63F	Airborne Express	GSO	GSO
 APR	cargo	4	19961221-0	Antonov 32B	SELVA Colombia	BOG	MDE
 ICL	military	17	19961217-3	Antonov 12BP	Russian Air Force		KRR
@@ -763,7 +763,7 @@ APR	passDomestic	5	19970131-0	Embraer 110P1A Bandeirante	Skypower Express Airway
 ENR	military	4	19970120-0	Harbin Yunshuji Y-12-II	Sri Lanka Air Force	JAF	JAF
 APR	cargo	1	19970129-0	de Havilland Canada DHC-4A Caribou	Southcentral Air	PASM	ENA
 ENR	passDomestic	3	19970107-0	de Havilland Canada DHC-6 Twin Otter 300	Polynesian Airlines	PPG	FGI
-APR	ferry	2	19970102-0	Cessna 208B Grand Caravan	Tar Heel Aviation	MEO	EDE
+APR	other	2	19970102-0	Cessna 208B Grand Caravan	Tar Heel Aviation	MEO	EDE
 MNV	other	4	19970315-0	Basler Turbo-67 (BT-67)	Force Aérienne de la République du Mali	OSH	MTW
 APR	cargo	16	19970312-0	Antonov 12BP	Alada Empresa de Transportes Aereos	LAD	LBZ
 ENR	other	2	19970307-1	Cessna 500 Citation I	Aerotaxi del Oriente - ATO	PEI	EOH
@@ -776,9 +776,9 @@ APR	exec	5	19970219-0	IAI 1124 Westwind	Transpolar	LIM	GUA
 LDG	passDomestic	1	19970214-0	Boeing 737-2C3	Varig	MAB	CKS
 ENR	passInternational	50	19970318-0	Antonov 24RV	Stavropolskaya Aktsionernaya Avia	STW	TZX
 APR	military	4	19970320-0	Antonov 24TV	Al Quwwat al-Jawwiya As-Sudaniya (Sudanese Air Force)		JUB
-ENR	ferry	2	19970325-0	Shorts SC.7 Skyvan 3-100	Arctic Circle Air Service	NUP	BET
+ENR	other	2	19970325-0	Shorts SC.7 Skyvan 3-100	Arctic Circle Air Service	NUP	BET
 LDG	military	3	19970401-1	Lockheed C-130H Hercules	United States Air Force - USAF	BLB	TGU
-TOF	ferry	2	19970404-0	Aviation Traders ATL-98 Carvair	Custom Air Service		KACJ
+TOF	other	2	19970404-0	Aviation Traders ATL-98 Carvair	Custom Air Service		KACJ
 ENR	passDomestic	5	19970410-0	Cessna 208B Grand Caravan	Hageland Aviation Services	PBA	AIN
 TOF	cargo	3	19970414-0	Fokker F-27 Friendship 600	TAAG Angola Airlines	BZV	LAD
 APR	military	14	19970416-0	Lockheed C-130H Hercules	Niger Air Force	LFW	NIM
@@ -788,17 +788,17 @@ APR	passDomestic	15	19970419-0	British Aerospace ATP	Merpati Nusantara Airlines	
 ENR	other	2	19970430-0	Cessna 208 Caravan I	TransNorthern Aviation	PNH	KZC
 LDG	passDomestic	35	19970508-0	Boeing 737-31B	China Southern Airlines	CKG	SZX
 APR	private	6	19970515-0	Yakovlev 40	Azerbaijan Airlines	KVD	KVD
-APR	ferry	3	19970516-1	Rockwell Sabreliner 40	Jett Paqueteria	SLP	NTR
+APR	other	3	19970516-1	Rockwell Sabreliner 40	Jett Paqueteria	SLP	NTR
 ENR	exec	4	19970520-0	Rockwell 1121B Jet Commander	private	ELP	TLC
 MNV	other	6	19970522-1	IPTN/CASA CN-235-10	IPTN		
 ENR	passDomestic	23	19970606-0	Vickers 781D Viscount	Bazair	BUX	FKI
 APR	passDomestic	7	19970610-0	Harbin Yunshuji Y-12 II	MIAT - Mongolian Airlines	ULN	MXW
 ENR	cargo	2	19970703-0	Fokker F-27 Friendship 200	Elbee Airlines	BOM	BLR
-APR	ferry	3	19970709-0	CASA/Nurtanio NC-212-AB4 Aviocar 200	Merpati Nusantara Airlines	LUV	AMQ
+APR	other	3	19970709-0	CASA/Nurtanio NC-212-AB4 Aviocar 200	Merpati Nusantara Airlines	LUV	AMQ
 ENR	passDomestic	1	19970709-1	Fokker 100	TAM Transportes Aéreos Regionais	SJK	CGH
 ENR	passDomestic	44	19970711-0	Antonov 24RV	Cubana de Aviación	SCU	HAV
 ENR	passDomestic	28	19970717-0	Fokker F-27 Friendship 600		BDO	
-ICL	ferry	4	19970717-1	Antonov 2R	Tula Air Enterprise	TYA	
+ICL	other	4	19970717-1	Antonov 2R	Tula Air Enterprise	TYA	
 APR	passDomestic	2	19970718-0	de Havilland Canada DHC-6 Twin Otter 300	Goroka Air Services	CMU	GKA
 ENR	private	2	19970721-1	Learjet 31	Singapore Airlines	HKT	UNN
 ENR	military	4	19970723-0	Embraer C-95B Bandeirante	Força Aérea Brasileira - FAB	REZ	GUJ
@@ -835,14 +835,14 @@ APR	passInternational	10	19970906-0	Dornier 228-212		BWN	MYY
 APR	passInternational	65	19970903-0	Tupolev 134B-3	Vietnam Airlines	SGN	PNH
 LDG	military	7	19970821-0	Antonov 32	United Front Air Force	MZR	BIN
 ENR	other	2	19970815-1	Cessna 550 Citation II	Riana Táxi Aéreo	POA	
-APR	ferry	1	19970814-0	Beechcraft 200 Super King Air	Colvin Aviation Inc.	AHN	DNN
+APR	other	1	19970814-0	Beechcraft 200 Super King Air	Colvin Aviation Inc.	AHN	DNN
 APR	passDomestic	16	19970810-0	Dornier 228-212	Formosa Airlines	TPE	MFK
 ICL	cargo	5	19970807-0	McDonnell Douglas DC-8-61F	Fine Air	MIA	SDQ
 APR	passInternational	3	19980102-1	Learjet 24D	Aerodinamo del Pacifico	HOU	TAM
 ICL	military	3	19980423-0	Embraer C-95B Bandeirante	Força Aérea Brasileira - FAB	REZ	REZ
 APR	passDomestic	51	19980113-0	Antonov 32	Islamic Emirate of Afghanistan Air Force - IEAAF	KDH	HEA
-APR	ferry	2	19980113-1	Let L-410UVP-E3	Aeroservice International	GME	UHE
-APR	ferry	2	19980113-2	Learjet 25B	American Corporate Aviation	HOU	IAH
+APR	other	2	19980113-1	Let L-410UVP-E3	Aeroservice International	GME	UHE
+APR	other	2	19980113-2	Learjet 25B	American Corporate Aviation	HOU	IAH
 TOF	passDomestic	16	19980127-0	Fokker F-27 Friendship 600	Myanma Airways	SNW	KYP
 ENR	passDomestic	104	19980202-0	McDonnell Douglas DC-9-32	Cebu Pacific Air	TAC	CGY
 ICL	cargo	7	19980204-0	Antonov 12BP		TER	LIS
@@ -872,7 +872,7 @@ ENR	passDomestic	1	19980708-0	Antonov 2T	Yakutsk ASK ROSTO	UEMM
 ENR	cargo	8	19980713-0	Ilyushin 76MD	ATI Aircompany	RKT	NLV
 ENR	cargo	3	19980716-1	Rockwell Sabreliner 60	Alas del Sur	TUC	COR
 APR	cargo	10	19980717-0	Ilyushin 78		BOJ	ASM
-MNV	ferry	2	19980718-0	Rockwell Sabreliner 75	Executive Aircraft Corporation	EWK	ICT
+MNV	other	2	19980718-0	Rockwell Sabreliner 75	Executive Aircraft Corporation	EWK	ICT
 ENR	military	4	19980723-0	Shorts SC.7 Skyvan 3-100	Fuerza Aérea Mexicana	MEX	TGZ
 LDG	passDomestic	2	19980727-1	Consolidated PBY-5A Catalina	Plane Sailing	SOU	
 APR	cargo	2	19980728-0	Swearingen SA227-AC Metro III	Swiftair	PMI	BCN
@@ -905,7 +905,7 @@ UNK	military	2	19981106-1	Beechcraft RC-12K Huron (A200CT Super King Air)	United
 ENR	cargo	13	19981111-0	Antonov 12B	Viluy	KJA	MJZ
 APR	cargo	2	19981123-0	Cessna 208B Super Cargomaster	Regency Express Air	YVR	YYJ
 MNV	other	2	19981128-0	de Havilland Canada DHC-7-102	DNK Aviation Leasing Group	GCI	GCI
-ENR	ferry	1	19981202-0	Cessna 501 Citation I/SP	Yates Aviation 	KMEZ	TXK
+ENR	other	1	19981202-0	Cessna 501 Citation I/SP	Yates Aviation 	KMEZ	TXK
 LDG	other	2	19981205-0	Beechcraft 300 Super King Air 350	Dogus Air	IST	AYT
 ICL	passDomestic	7	19981207-0	Pilatus Britten-Norman BN-2A-26 Islander	Air Satellite	YBC	YXK
 APR	passDomestic	101	19981211-0	Airbus A310-204	Thai Airways International	BKK	URT
@@ -915,13 +915,13 @@ APR	other	2	19981217-1	Beechcraft 200 Super King Air	Nouvelle Air Affaires Gabon
 APR	cargo	5	19981222-0	Antonov 32B	SELVA Colombia	BOG	MDE
 ENR	cargo	14	19981226-0	Lockheed L-100-30 Hercules		NOV	VHC
 UNK	cargo	4	19981227-0	Antonov 12	ACA-Ancargo Air	LAD	LBZ
-TOF	ferry	1	19980109-0	Cessna 208B Super Cargomaster			GSO
+TOF	other	1	19980109-0	Cessna 208B Super Cargomaster			GSO
 ENR	passDomestic	18	19990807-0	Dornier 228-201	TACV - Cabo Verde Airlines	VXE	NTO
 APR	military	8	19990111-0	Hindustan Aeronautics Ltd. HAL-748-219 Srs. 2	Defence Research and Development Org.	VOAR	VOTX
 ENR	cargo	9	19990102-0	Lockheed L-100-30 Hercules		NOV	LAD
 ENR	cargo	2	19990113-0	Douglas DC-3C	Kelowna Flightcraft Air Charter	YVR	YYJ
 APR	military	4	19990113-2	Boeing KC-135E Stratotanker	Air National Guard	GKE	GKE
-APR	ferry	2	19990114-1	Beechcraft 300 Super King Air	USA Healthcare-Leasing	GMU	
+APR	other	2	19990114-1	Beechcraft 300 Super King Air	USA Healthcare-Leasing	GMU	
 APR	passDomestic	3	19990116-0	Britten-Norman BN-2A-26 Islander	Uzu Air	HID	QLD
 TOF	passDomestic	5	19990118-0	Cessna 208A Caravan I	Necon Air	JUM	KEP
 ENR	military	28	19990121-0	Antonov 26	Fuerza Aérea Nicaragua	MGA	BEF
@@ -934,13 +934,13 @@ LDG	passDomestic	4	19990225-0	Dornier 328-110		CAG	GOA
 APR	military	21	19990307-0	Antonov 32	Indian Air Force - IAF	GWL	DEL
 ENR	passDomestic	8	19990318-0	Douglas DC-3C (C-47A-DK)	ALIANSA Colombia	CUC	EYP
 APR	cargo	1	19990319-0	de Havilland Canada DHC-6 Twin Otter 300	Provincial Airlines	YYR	YDI
-ENR	ferry	6	19990407-0	Boeing 737-4Q8	THY Turkish Airlines	ADA	JED
+ENR	other	6	19990407-0	Boeing 737-4Q8	THY Turkish Airlines	ADA	JED
 LDG	private	5	19990407-1	Learjet 24D	Manacá Táxi Aéreo	RAO	
 ENR	passDomestic	5	19990408-0	de Havilland Canada DHC-6 Twin Otter 300	Aerotaca Colombia - Aerotransportes Casanare	BGA	SKLA
 ENR	cargo	8	19990415-0	McDonnell Douglas MD-11F	Korean Air	SHA	SEL
 ENR	passDomestic	7	19990508-0	de Havilland Canada DHC-6 Twin Otter 300	Vanair	SON	VLI
 TOF	military	5	19990524-0	de Havilland Canada DHC-4A Caribou	Royal Malaysian Air Force - RMAF	KCH	KCH
-ICL	ferry	2	19990529-0	Let L-410UVP-E	Malindi Air Services		
+ICL	other	2	19990529-0	Let L-410UVP-E	Malindi Air Services		
 LDG	passDomestic	11	19990601-0	McDonnell Douglas MD-82	American Airlines	DFW	LIT
 ENR	military	50	19990603-0	Antonov 32	Al Quwwat al-Jawwiya As-Sudaniya (Sudanese Air Force)	KSL	KRT
 ENR	other	1	19990609-5	Britten-Norman BN-2A-21 Islander	Pacific Airways	MPH	
@@ -963,14 +963,14 @@ APR	passDomestic	1	19990812-0	Beechcraft 1900D	Regionnair	YPN	YZV
 LDG	passInternational	3	19990822-0	McDonnell Douglas MD-11	China Airlines	BKK	HKG
 LDG	passDomestic	1	19990824-0	McDonnell Douglas MD-90-30	Uni Air	TSA	HUN
 LDG	passDomestic	2	19990826-0	Yakovlev 40	Uzbekistan Airways	TAS	UTNT
-ENR	ferry	2	19990829-1	Learjet 35A	Corporate Jets	LXR	NBO
+ENR	other	2	19990829-1	Learjet 35A	Corporate Jets	LXR	NBO
 TOF	passDomestic	65	19990831-0	Boeing 737-204C	LAPA - Líneas Aéreas Privadas Argentinas	AEP	COR
 APR	passDomestic	15	19990905-0	British Aerospace BAe-748-501 Srs. 2B	Necon Air	PKR	KTM
 APR	cargo	2	19990914-1	Embraer 110 Bandeirante	Norte Jet Táxi Aéreo	BEL	MEU
 ENR	exec	7	19990914-2	Dassault Falcon 900B		ATH	OTP
 UNK	military	5	19990917-0	Lockheed C-130A Hercules	Fuerza Aérea Mexicana		
 ENR	private	2	19990919-0	Beechcraft 200 Super King Air	Compania Aerospace de Venezuela	FLL	CCS
-ICL	ferry	2	19991005-0	Beechcraft 200 Super King Air	Shoreline Aviation	KAQW	LWB
+ICL	other	2	19991005-0	Beechcraft 200 Super King Air	Shoreline Aviation	KAQW	LWB
 LDG	other	1	19991011-0	ATR-42-320	Air Botswana	GBE	GBE
 ENR	military	6	19991024-0	IAI Arava 201	Ejército Venezolana	SVFM	AGV
 APR	other	3	19991024-1	Learjet 35A	Avioriprese Jet Executive	NAP	GOA
@@ -996,13 +996,13 @@ ICL	cargo	4	19991222-0	Boeing 747-2B5F (SCD)	Korean Air	STN	MXP
 ENR	passInternational	1	19991224-1	Airbus A300B2-101	Indian Airlines	KTM	DEL
 ENR	passDomestic	10	19991225-0	de Havilland Canada DHC-6 Twin Otter 300	Skyline Airways	SIF	KTM
 APR	passInternational	22	19991225-1	Yakovlev 42D	Cubana de Aviación	HAV	VLN
-ENR	ferry	6	19991229-0	Antonov 28	Ecuato Guineana de Aviacion		THR
+ENR	other	6	19991229-0	Antonov 28	Ecuato Guineana de Aviacion		THR
 APR	cargo	2	19990112-0	Fokker F-27 Friendship 600	Channel Express	LTN	GCI
 LDG	cargo	2	20000317-1	Douglas C-47A-5-DK Dakota 3 (DC-3C)	Points North Air Services	YNL	CWJC
 ENR	military	7	20000322-0	CASA C-212-DE Aviocar 200	Ejército del Aire	SVQ	ZAZ
 APR	cargo	9	20000324-0	Antonov 12BK		BKK	CMB
 TOF	passDomestic	3	20000325-0	Antonov 32	Uralex	NOV	LAD
-UNK	ferry	1	20000326-0	Cessna 525 CitationJet	Mike G. Rutherford	SGR	
+UNK	other	1	20000326-0	Cessna 525 CitationJet	Mike G. Rutherford	SGR	
 ENR	other	40	20000330-0	Antonov 26		JAF	ADP
 ENR	other	1	20000401-0	Cessna 208A Caravan 675	Taxval		SADF
 APR	private	3	20000405-2	Learjet 35A	Bankair	OPF	KMAI
@@ -1021,7 +1021,7 @@ TOF	cargo	1	20000525-0	Shorts 330-200	Streamline Aviation	CDG	LTN
 ENR	passDomestic	1	20000525-2	Airbus A330-301	Philippine Air Lines	DVO	MNL
 LDG	passDomestic	7	20000605-0	Fokker F-27 Friendship 600	Ghana Airlink	TML	ACC
 APR	passDomestic	49	20000622-0	Xian Yunshuji Y-7-100C	Wuhan Airlines	ENH	WUH
-UNK	ferry	4	20000623-1	Learjet 55	Universal Jet Aviation	BCT	FPR
+UNK	other	4	20000623-1	Learjet 55	Universal Jet Aviation	BCT	FPR
 ENR	military	5	20000627-0	Kawasaki C-1A	Japan Air Self-Defence Force - JASDF	YGJ	YGJ
 ENR	military	11	20000702-0	GAF Nomad N.22C	Hukbong Himpapawid ng Pilipinas (Philippine Air Force)		PPS
 UNK	other	1	20000705-0	Airbus A320	Royal Jordanian Airlines	AMM	DAM
@@ -1035,10 +1035,10 @@ ENR	passInternational	113	20000725-0	Aérospatiale / BAC Concorde 101	Air France
 UNK	military	13	20000726-0	Lockheed C-130H Hercules	Royal Jordanian Air Force - RJAF		
 ENR	passDomestic	25	20000727-0	de Havilland Canada DHC-6 Twin Otter 300	Royal Nepal Airlines	BJH	DHI
 ENR	passDomestic	5	20000729-0	Beechcraft B200C Super King Air	Aerial Services Pvt. Ltd	DEL	KUU
-APR	ferry	1	20000731-0	de Havilland Canada DHC-6 Twin Otter 200	Win Win Aviation		KLHZ
+APR	other	1	20000731-0	de Havilland Canada DHC-6 Twin Otter 200	Win Win Aviation		KLHZ
 ENR	military	14	20000806-0	CASA C-212-AB10 Aviocar 300	Ejército de Chile		
 UNK	passDomestic	27	20000812-0	Antonov 26B	STAER Airlines		TSH
-ICL	ferry	2	20000814-0	Cessna 208 Caravan I	RCMP-GRC Air Services	YZW	YDL
+ICL	other	2	20000814-0	Cessna 208 Caravan I	RCMP-GRC Air Services	YZW	YDL
 APR	passInternational	143	20000823-0	Airbus A320-212	Gulf Air	CAI	BAH
 ENR	passDomestic	10	20000826-0	Cessna 208B Grand Caravan		FON	TNO
 APR	exec	3	20000826-1	Beechcraft 300 Super King Air	Procuraduría General de la República (PGR)		ESE
@@ -1059,7 +1059,7 @@ ENR	passDomestic	49	20001031-1	Antonov 26	ACA-Ancargo Air	VHC	LAD
 TOF	passDomestic	2	20001107-0	Antonov 32B			
 ENR	cargo	1	20001109-0	Swearingen SA226-TC Metro II	Superior Aviation	FWA	MKE
 ENR	passDomestic	57	20001115-0	Antonov 26	ASA Pesada	LAD	MSZ
-APR	ferry	1	20001125-0	Aérospatiale SN.601 Corvette	Mayoral Executive Jet	AGP	ODB
+APR	other	1	20001125-0	Aérospatiale SN.601 Corvette	Mayoral Executive Jet	AGP	ODB
 UNK	other	1	20001201-0	Antonov 24	?	GOM	KND
 UNK	military	3	20001211-0	Embraer 110P1K Bandeirante	Force Aérienne Gabonaises	LBV	TCH
 ENR	cargo	2	20001220-0	Curtiss C-46A-45-CU Commando	Everts Air Fuel	NNL	ENA
@@ -1088,7 +1088,7 @@ ENR	passDomestic	24	20010125-0	Douglas C-47A-65-DL (DC-3C)	Rutaca	CBL	PMV
 ENR	passDomestic	10	20010127-2	Beechcraft 200 Super King Air	Jet Express Services	BJC	SWO
 APR	cargo	3	20010131-0	Sud Aviation SE-210 Caravelle 10R	Líneas Aéreas Suramericanas	EYP	MVP
 APR	passDomestic	2	20010208-0	Swearingen SA227-AT Merlin IVC	Northern Illinois Flight Center	MDW	KSJX
-APR	ferry	3	20010208-1	Learjet 35A	E.A.S. Aeroservizi	NUE	CIA
+APR	other	3	20010208-1	Learjet 35A	E.A.S. Aeroservizi	NUE	CIA
 APR	passDomestic	10	20010210-0	GAF Nomad N.24A	Gum Air	PBM	
 ICL	cargo	2	20010227-0	Shorts 360-100	Loganair	EDI	BFS
 ENR	military	21	20010303-0	Shorts C-23B+ Sherpa (330)	Florida Army National Guard	KHRT	NTU
@@ -1098,7 +1098,7 @@ APR	passDomestic	16	20010317-0	Beechcraft 1900C-1	SAL Express - Sociedade de Avi
 APR	passInternational	20	20010324-0	de Havilland Canada DHC-6 Twin Otter 300	Air Caraïbes	SXM	SBH
 APR	private	3	20010326-0	Fokker F-27 Friendship 500F	Merpati Nusantara Airlines	SUB	SUB
 APR	military	2	20010326-1	Beechcraft RC-12K Huron (A200CT Super King Air)	United States Army		NUE
-ICL	ferry	1	20010402-0	Cessna 501 Citation I/SP	Jet Wings	GRB	RSW
+ICL	other	1	20010402-0	Cessna 501 Citation I/SP	Jet Wings	GRB	RSW
 TOF	military	14	20010404-1	Antonov 26	Al Quwwat al-Jawwiya As-Sudaniya (Sudanese Air Force)	HSAD	KRT
 ENR	passDomestic	10	20010428-0	Cessna 208B Grand Caravan	Les Grands Jorasses	SADF	REL
 MNV	other	1	20010429-0	Cessna 208 Caravan I	Mr A. McVinish	VIC	VIC
@@ -1116,7 +1116,7 @@ ENR	cargo	10	20010714-0	Ilyushin 76TD	Russ Air Transport Company	CKL	NSK
 APR	cargo	3	20010805-0	Dassault Falcon 20C	Naske Air	KEF	UAK
 ENR	passDomestic	4	20010823-1	Antonov 28	Victoria Air		FZOE
 ICL	cargo	2	20010824-0	Learjet 25	Ameristar Jet Charter	ITH	JXN
-APR	ferry	1	20010824-2	Beechcraft 200 Super King Air	Middletown Corporate Aviation		
+APR	other	1	20010824-2	Beechcraft 200 Super King Air	Middletown Corporate Aviation		
 APR	passDomestic	4	20010829-0	CASA CN-235-200	Binter Méditerraneo	MLN	AGP
 ENR	passDomestic	1692	20010911-0	Boeing 767-223ER	American Airlines	BOS	LAX
 ENR	passDomestic	965	20010911-1	Boeing 767-222	United Airlines	BOS	LAX
@@ -1142,16 +1142,16 @@ APR	cargo	1	20011127-0	Boeing 747-246F	MK Airlines	LUX	PHC
 ENR	passDomestic	3	20011128-0	Cessna 208B Grand Caravan		SYQ	XQP
 APR	cargo	2	20011201-1	Cessna 208B Grand Caravan	Air Carriers Inc.	LIT	KEKY
 ENR	military	18	20011202-0	Ilyushin 76TD	Federal Border Guard Aviation Command	BTK	PKC
-ENR	ferry	2	20011210-0	Learjet 24D	Air Cargo Express	HRL	ELP
+ENR	other	2	20011210-0	Learjet 24D	Air Cargo Express	HRL	ELP
 LDG	passDomestic	1	20011210-1	Beechcraft B200C Super King Air	Royal Flying Doctor Service	ADL	MGB
 ENR	passDomestic	6	20011214-0	Let L-410A	Eagle Air	BUX	BNC
 ENR	passDomestic	16	20011216-0	Let L-410UVP-E	Heliandes	EOH	UIB
-ICL	ferry	2	20011220-0	Cessna 560 Citation V	Eagle Air	ZRH	BRN
+ICL	other	2	20011220-0	Cessna 560 Citation V	Eagle Air	ZRH	BRN
 ICL	passDomestic	8	20011226-0	Pilatus Britten-Norman BN-2B-26 Islander	BAL Bremerhaven Airline	BRV	AGE
 APR	military	8	20010104-1	Shaanxi Yunshuji Y-8	People's Liberation Army - Air Force - PLAAF		
-TOF	ferry	2	20011122-0	Learjet 25B	Universal Jet Aviation	PIT	BCT
+TOF	other	2	20011122-0	Learjet 25B	Universal Jet Aviation	PIT	BCT
 ENR	cargo	3	20020114-0	Embraer 120RT Brasilia	Ibertrans Aérea	MAD	BIO
-APR	ferry	2	20021108-1	IAI 1124A Westwind II	Richmor Aviation	LAS	TSM
+APR	other	2	20021108-1	IAI 1124A Westwind II	Richmor Aviation	LAS	TSM
 APR	passDomestic	1	20020116-0	Boeing 737-3Q8	Garuda Indonesia Airways	AMI	JOG
 ENR	passDomestic	26	20020117-0	Fairchild FH-227E	Petroproduccion - Unidad de Aviacion	UIO	LGQ
 APR	military	5	20020127-0	Antonov 12	Força Aérea Popular de Angola	LAD	LUO
@@ -1159,22 +1159,22 @@ APR	passDomestic	94	20020128-0	Boeing 727-134	TAME Ecuador	UIO	TUA
 ICL	military	2	20020202-0	Learjet C-21A (Learjet 35)	United States Air Force - USAF	RCA	RCA
 ENR	cargo	8	20020207-0	Antonov 12BP	Volare Aviation Enterprise	AGA	ALG
 APR	passDomestic	119	20020212-0	Tupolev 154M	Iran Air Tours	THR	KHD
-APR	ferry	2	20020214-2	Beechcraft 300LW Super King Air	Kronospan GmbH	POZ	SMV
+APR	other	2	20020214-2	Beechcraft 300LW Super King Air	Kronospan GmbH	POZ	SMV
 APR	cargo	1	20020215-0	Antonov 12BP	Tiramavia		ROB
 APR	military	17	20020221-0	Antonov 26	Aviatsiya Voenno-morskogo Flota Rossii (Russian Navy)		
 ENR	other	3	20020309-0	Antonov 2TP	Svedijos Prekés	BUD	TUN
 ENR	passDomestic	16	20020314-0	Antonov 2R	Aerotaxi	CFG	CCC
 APR	cargo	1	20020315-0	Cessna 208B Super Cargomaster	Priority Air Charter	MSP	YIP
 APR	military	7	20020109-0	Lockheed KC-130R Hercules	United States Marine Corps	JAG	
-APR	ferry	4	20020317-0	Let L-410UVP-E	Djibouti Airlines	MGQ	JIB
+APR	other	4	20020317-0	Let L-410UVP-E	Djibouti Airlines	MGQ	JIB
 LDG	cargo	2	20020412-0	Swearingen SA227-AC Metro III	Tadair	MAD	PMI
 APR	passInternational	129	20020415-0	Boeing 767-2J6ER	Air China	PEK	PUS
 ENR	passDomestic	149	20020504-1	BAC One-Eleven 525FT	EAS Airlines	KAN	LOS
-TOF	ferry	3	20020419-0	Antonov 32A	SELVA Colombia	PPN	EOH
+TOF	other	3	20020419-0	Antonov 32A	SELVA Colombia	PPN	EOH
 APR	passDomestic	112	20020507-1	McDonnell Douglas MD-82	China Northern Airlines	PEK	DLC
 ENR	military	7	20020508-0	North American T-39N Sabreliner	United States Navy	NPA	NPA
 APR	passInternational	14	20020507-0	Boeing 737-566	EgyptAir	CAI	TUN
-APR	ferry	5	20020521-0	Let L-410UVP	Sky Executive Airlines	PHC	CBQ
+APR	other	5	20020521-0	Let L-410UVP	Sky Executive Airlines	PHC	CBQ
 ENR	military	7	20020508-1	North-American Rockwell T-39N Sabreliner	United States Navy	NPA	
 ENR	passInternational	225	20020525-0	Boeing 747-209B	China Airlines	TPE	HKG
 ENR	passDomestic	6	20020525-1	de Havilland Canada DHC-6 Twin Otter 300	Trigana Air Service	NBX	EWI
@@ -1188,7 +1188,7 @@ APR	cargo	28	20020704-0	Boeing 707-123B	New Gomair	NDJ	BZV
 ENR	passDomestic	9	20020716-2	Pilatus Britten-Norman BN-2 Islander		TRK	LBW
 ENR	passDomestic	4	20020717-0	de Havilland Canada DHC-6 Twin Otter 300	Skyline Airways	JUM	SKH
 MNV	other	2	20020718-0	Consolidated PB4Y-2 Super Privateer	Hawkins & Powers Aviation	BJC	BJC
-TOF	ferry	14	20020728-0	Ilyushin 86	Pulkovo Aviation Enterprise	SVO	LED
+TOF	other	14	20020728-0	Ilyushin 86	Pulkovo Aviation Enterprise	SVO	LED
 ENR	military	10	20020807-0	Lockheed MC-130H Hercules	United States Air Force - USAF	BQN	
 TOF	other	2	20020808-1	Antonov 2R	Eisk-avia		
 ENR	other	5	20020815-0	Shaanxi Yunshuji Y-8D	Sri Lanka Air Force	RML	RML
@@ -1211,19 +1211,19 @@ ENR	private	4	20021108-0	Cessna 208B Grand Caravan	Brown County Financial Servic
 TOF	exec	5	20020104-0	Canadair CL-600-2B16 Challenger 604	Epps Air Service	BHX	BGR
 ENR	passDomestic	19	20021111-0	Fokker F-27 Friendship 600	Laoag International Airline	MNL	LAO
 APR	passDomestic	1	20021128-0	Let L-410UVP-E20	Eagle Aviation		UKA
-ENR	ferry	3	20021209-0	Beechcraft 1900C	Raytheon Aircraft	ICT	KMEZ
+ENR	other	3	20021209-0	Beechcraft 1900C	Raytheon Aircraft	ICT	KMEZ
 APR	cargo	1	20021217-1	Cessna 208B Super Cargomaster	Planemasters	DEC	RFD
 ENR	passDomestic	8	20021213-1	Britten-Norman BN-2A-26 Islander	Island Airways Ltd.		MAG
 ENR	cargo	2	20021221-0	ATR-72-202	Transasia Airways	TPE	MFM
 ENR	passInternational	44	20021223-0	Antonov 140	Aeromist Kharkiv	TZX	IFN
-APR	ferry	1	20021225-0	Cessna 208B Super Cargomaster	Telford Aviation	ECG	MEO
+APR	other	1	20021225-0	Cessna 208B Super Cargomaster	Telford Aviation	ECG	MEO
 APR	military	3	20021226-0	Embraer C-95A Bandeirante	Força Aérea Brasileira - FAB	SBMT	FLN
 APR	passDomestic	1	20021227-0	Let L-410UVP	Ocean Airlines		AJN
-ENR	ferry	1	20021229-0	Britten-Norman BN-2A-7 Islander	PARSA	BOC	BLB
+ENR	other	1	20021229-0	Britten-Norman BN-2A-7 Islander	PARSA	BOC	BLB
 LDG	exec	4	20020115-0	de Havilland Canada DHC-6 Twin Otter 300	Procuraduría General de la República (PGR)	MEX	MMCH
 TOF	passInternational	141	20031225-0	Boeing 727-223	Union des Transports Africains de Guinée	COO	AKF
 APR	passDomestic	75	20030108-1	Avro RJ.100	THY Turkish Airlines	IST	DIY
-ENR	ferry	7	20030117-2	Antonov 24B		BZV	DLA
+ENR	other	7	20030117-2	Antonov 24B		BZV	DLA
 TOF	exec	3	20030124-0	Grumman G-159 Gulfstream I	African Commuter Services	HKBA	
 APR	cargo	6	20030131-0	Ilyushin 76TD	Euro Asia Aviation	MFM	BCH
 ICL	cargo	2	20030210-0	Antonov 28	Enimex	TLL	HEL
@@ -1253,12 +1253,12 @@ ENR	passDomestic	4	20030713-0	Let L-410UVP-E	Ruiban and Duran C.A.	SVFM	SCI
 MNV	other	2	20030716-0	Lockheed L-188A Electra	Air Spray (1967)	YXC	YXC
 ENR	passDomestic	14	20030719-0	Swearingen SA226-TC Metro II	Ryan Blake Air Charter	WIL	UAS
 APR	other	1	20030723-0	Cessna 551 Citation II/SP	Petroforte Bras. Petroleo Ltda	LIP	SOD
-APR	ferry	2	20030804-0	Learjet 35A	Air East Management	FRG	GON
+APR	other	2	20030804-0	Learjet 35A	Air East Management	FRG	GON
 APR	passDomestic	1	20030808-0	Cessna 208B Grand Caravan	Servicios Aéreos Sucre - SASCA	PMV	CAJ
 ENR	military	2	20030812-0	Beechcraft C-12F Huron  (A200CF Super King Air)	United States Army	AAF	AAF
 ENR	cargo	2	20030817-0	Reims Cessna F406 Caravan II	Hageland Aviation Services	BRW	AIN
 ENR	passDomestic	21	20030824-0	Let L-410UVP-E3	Tropical Airways	CAP	PAX
-ENR	ferry	2	20030826-0	Beechcraft 1900D		HYA	ALB
+ENR	other	2	20030826-0	Beechcraft 1900D		HYA	ALB
 APR	passDomestic	8	20030911-0	Cessna 208B Grand Caravan	Wasaya Airways	YPL	SUR
 ENR	private	10	20030912-0	Beechcraft B200 Super King Air	Willis Lease Finance Corporation	FNC	AGP
 UNK	military	6	20030919-0	Lockheed C-130A Hercules	Fuerza Aérea Mexicana	MXL	MMSM
@@ -1268,18 +1268,18 @@ ICL	private	2	20030925-0	Grumman HU-16C Albatross	Corsair Aviation Holdings Inc	
 UNK	other	1	20031011-0	Antonov 2TP	Transmandu	URM	
 ENR	cargo	2	20031003-0	Convair CV-580F	Air Freight NZ	CHC	PMR
 ENR	cargo	5	20031026-0	Fairchild FH-227B	CATA Linea Aérea	EZE	CNQ
-APR	ferry	3	20031027-0	British Aerospace BAe-125-800A	Aeroextra	TAM	
+APR	other	3	20031027-0	British Aerospace BAe-125-800A	Aeroextra	TAM	
 APR	cargo	1	20031029-0	Cessna 208B Super Cargomaster		CPR	COD
 APR	cargo	13	20031117-0	Antonov 12BP	Sarit Airlines	KRT	WUU
 TOF	military	33	20031129-0	Antonov 26	Force Aérienne Congolaise	BNB	
 APR	cargo	1	20031129-1	Swearingen SA227-AT Merlin IVC	Ameriflight	BFI	SFF
 ICL	passDomestic	2	20031108-0	Shorts SC.7 Skyvan 3M-100	Trans Guyana Airways	OGL	EKE
 APR	passDomestic	3	20031212-0	Britten-Norman BN-2A-21 Islander	Chemtrad Aviation		TUG
-APR	ferry	2	20031204-1	Beechcraft B200 Super King Air	Southeastern Air Charter	KDQH	KCCO
+APR	other	2	20031204-1	Beechcraft B200 Super King Air	Southeastern Air Charter	KDQH	KCCO
 TOF	passDomestic	2	20031216-0	de Havilland Canada DHC-3 Turbo Otter	Huron Air		
 ENR	military	7	20031217-0	CASA CN-235M-200	L'Armée de L'Air	LFBF	LFBF
 ENR	cargo	3	20031218-1	McDonnell Douglas DC-9-15F	Líneas Aéreas Suramericanas	EYP	MVP
-ENR	ferry	2	20031223-0	Learjet 24B	Pavair	CNO	SUN
+ENR	other	2	20031223-0	Learjet 24B	Pavair	CNO	SUN
 APR	passDomestic	46	20030109-0	Fokker F-28 Fellowship 1000	Transportes Aéreos Nacionales de la Selva - TANS	CIX	CHH
 ENR	other	7	20030625-0	Lockheed C-130 Hercules	Islamic Republic of Iran Air Force - IRIAF	THR	THR
 ENR	passDomestic	148	20040103-0	Boeing 737-3Q8	Flash Airlines	SSH	CAI
@@ -1304,7 +1304,7 @@ TOF	passDomestic	1	20040518-1	Antonov 2P	Araiavia
 UNK	cargo	2	20040523-0	Let L-410UVP-E3	Blue Bird Aviation	WIL	MGQ
 APR	cargo	3	20040525-0	de Havilland Canada DHC-6 Twin Otter 300	Yeti Airlines	KTM	LUA
 ENR	passDomestic	19	20040608-0	Hawker Siddeley HS-748-232 Srs. 2A	Gabon Express	LBV	MVB
-ENR	ferry	2	20040613-0	Beechcraft 200 Super King Air	Rader Aviation	KSXL	LWB
+ENR	other	2	20040613-0	Beechcraft 200 Super King Air	Rader Aviation	KSXL	LWB
 ENR	passDomestic	2	20040626-0	Lisunov Li-2T	FLA RF	UUBM	KLF
 TOF	passDomestic	2	20040628-0	Beechcraft 200 Super King Air	Ngangeni Air Charters		VNX
 TOF	passDomestic	7	20040702-0	IAI 1124 Westwind	Air Trek	PTY	IAD
@@ -1320,21 +1320,21 @@ ENR	exec	1	20040827-1	de Havilland Canada DHC-3 Otter	Mavrik Aire	MCG	UNK
 APR	cargo	2	20040909-0	North American CT-39A Sabreliner	Jett Paqueteria	MEX	VSA
 ENR	cargo	1	20040929-0	Pilatus Britten-Norman BN-2A-27 Islander	Air Flamenco	MAZ	SIG
 ENR	cargo	4	20041005-0	Antonov 12	Sarit Airlines	EBD	JUB
-APR	ferry	2	20041014-1	Canadair CL-600-2B19 Regional Jet CRJ-200LR		LIT	MSP
+APR	other	2	20041014-1	Canadair CL-600-2B19 Regional Jet CRJ-200LR		LIT	MSP
 APR	cargo	3	20041015-0	Douglas DC-3C	Aerovanguardia	VVC	MDE
 TOF	cargo	7	20041014-0	Boeing 747-244BSF	MK Airlines	YHZ	ZAZ
 ENR	cargo	2	20041016-0	Britten-Norman BN-2A-21 Islander	Pacific Airways	XCN	PPS
 APR	passDomestic	13	20041019-0	British Aerospace 3201 Jetstream 32EP		STL	IRK
-ENR	ferry	1	20041022-1	Reims Cessna F406 Caravan II	Highland Airways	SYY	INV
-ENR	ferry	5	20041024-0	Learjet 35A	Med Flight Air Ambulance	SDM	ABQ
+ENR	other	1	20041022-1	Reims Cessna F406 Caravan II	Highland Airways	SYY	INV
+ENR	other	5	20041024-0	Learjet 35A	Med Flight Air Ambulance	SDM	ABQ
 LDG	passDomestic	4	20041118-0	British Aerospace 3101 Jetstream 31	Venezolana - Linea Aerea Bolivariana	VIG	CCS
 APR	exec	10	20041024-1	Beechcraft 200 Super King Air	Hendrick Motorsports, Inc	KJQF	KMTV
 ICL	passDomestic	55	20041121-0	Canadair CL-600-2B19 Regional Jet CRJ-200LR	China Yunnan Airlines	BAV	SHA
-APR	ferry	3	20041122-0	Gulfstream Aerospace G-1159A Gulfstream III	Business Jet Services	DAL	HOU
+APR	other	3	20041122-0	Gulfstream Aerospace G-1159A Gulfstream III	Business Jet Services	DAL	HOU
 TOF	passDomestic	3	20041128-0	Canadair CL-600-2A12 Challenger 601		MTJ	SBN
 ENR	military	6	20041127-0	CASA C-212 Aviocar 200		BPM	FAH
 LDG	passDomestic	25	20041130-0	McDonnell Douglas MD-82	Lion Air	CGK	SOC
-ENR	ferry	2	20041130-1	MBB HFB-320 Hansa Jet	Grand Aire Express	SUS	TOL
+ENR	other	2	20041130-1	MBB HFB-320 Hansa Jet	Grand Aire Express	SUS	TOL
 ENR	military	16	20041210-0	PZL-Mielec M28	Guardia Nacional Bolivariana de Venezuela - GNBV	PYH	SVFM
 APR	cargo	3	20041211-0	Embraer 110 Bandeirante	NHR Táxi-Aéreo	GRU	UBA
 ENR	cargo	1	20041211-1	Ilyushin 76TD	Airline Transport	KRT	SHJ
@@ -1375,7 +1375,7 @@ TOF	passDomestic	7	20050602-0	Antonov 24B		KRT	ELF
 ENR	passDomestic	60	20050716-0	Antonov 24B	Equatorial Express Airlines	SSG	BSG
 APR	military	3	20050721-0	IPTN/CASA CN-235M-10	Tentara Nasional Indonesia-AU (Air Force)	BTJ	LSW
 MNV	other	2	20050726-0	Cessna 208B Grand Caravan	Aéreo Ruta Maya	RER	
-ENR	ferry	2	20050728-0	Beechcraft 200 Super King Air	Northern Thunderbird Air	YVR	YYD
+ENR	other	2	20050728-0	Beechcraft 200 Super King Air	Northern Thunderbird Air	YVR	YYD
 UNK	other	2	20050801-0	Canadair CL-215-6B11 (CL-415)	Securité Civile		
 ENR	passInternational	16	20050806-0	ATR-72-202	Tuninter	BRI	DJE
 ENR	military	1	20050809-0	Antonov	Yemen Air Force		MKX
@@ -1387,7 +1387,7 @@ ENR	cargo	3	20050904-0	Antonov 2R	Blagoveshchenski ASK ROSTO Polyot	UHBP
 ICL	passDomestic	149	20050905-0	Boeing 737-230	Mandala Airlines	MES	CGK
 APR	passDomestic	11	20050905-1	Antonov 26B		BNC	IRP
 ENR	passDomestic	13	20050909-1	Antonov 26B	Air Kasai	BNB	
-ICL	ferry	2	20050916-0	Cessna 525 CitationJet	JCA Holdings e Participacoes	SDU	SBJR
+ICL	other	2	20050916-0	Cessna 525 CitationJet	JCA Holdings e Participacoes	SDU	SBJR
 ENR	cargo	2	20050921-1	Antonov 2	Panafrican Airways	KSE	BKY
 APR	cargo	6	20050108-0	Antonov 12	Service Air	EBB	
 LDG	passDomestic	2	20051004-0	Antonov 12	Wimbi Dira Airways	FKI	BUX
@@ -1395,7 +1395,7 @@ APR	cargo	1	20051006-0	Cessna 208B Super Cargomaster		YWG	YQT
 ENR	passDomestic	117	20051022-0	Boeing 737-2L9	Bellview Airlines	LOS	ABV
 UNK	military	3	20051104-0	PZL-Mielec M28-05 Skytruck	Vietnam Air Force		
 UNK	other	2	20051224-0	Antonov 28		HSZA	ELF
-APR	ferry	2	20051228-0	Learjet 35A	Skyward Aviation 	TWF	TKF
+APR	other	2	20051228-0	Learjet 35A	Skyward Aviation 	TWF	TKF
 ENR	passInternational	23	20051223-0	Antonov 140-100	Azerbaijan Airlines	GYD	SCO
 ICL	passInternational	20	20051219-0	Grumman G-73T Turbo Mallard	Chalk's Ocean Airways	SPB	SPB
 LDG	passDomestic	108	20051210-0	McDonnell Douglas DC-9-32	Sosoliso Airlines	ABV	PHC
@@ -1409,7 +1409,7 @@ ICL	cargo	3	20051030-0	Let L-410UVP-E19A	Trade Air	BGY	ZAG
 APR	other	3	20060102-0	British Aerospace BAe-125-700A	Evolga	SVO	HRK
 ENR	passDomestic	3	20060121-0	Cessna 208B Grand Caravan	Sonicblue Airways	YAZ	YVR
 ENR	military	4	20060110-1	North American Rockwell T-39N Sabreliner	United States Navy	CHA	NPA
-APR	ferry	2	20060112-0	Beechcraft B300 Super King Air 350	Euroflug Frenzel	FKB	EDTF
+APR	other	2	20060112-0	Beechcraft B300 Super King Air 350	Euroflug Frenzel	FKB	EDTF
 ENR	military	42	20060119-0	Antonov 24B	Slovak Air Force	PRN	KSC
 LDG	private	4	20060124-0	Cessna 560 Citation V	Goship Air	SUN	CLD
 LDG	private	6	20060203-0	Beechcraft 200 Super King Air	Jon Kraut	TTN	CRE
@@ -1450,7 +1450,7 @@ APR	military	2	20060719-3	CASA/Nurtanio NC-212 Aviocar 200	Tentara Nasional Indo
 TOF	other	2	20060725-0	Spectrum Aeronautical Spectrum 33	Spectrum Aeronautical		
 ICL	other	6	20060729-0	de Havilland Canada DHC-6 Twin Otter 100		KUUV	KUUV
 ENR	passDomestic	17	20060803-0	Antonov 28	TRACEP-Congo Aviation		BKY
-ENR	ferry	1	20060804-0	Embraer 110P1 Bandeirante	AirNow	BGM	KDDH
+ENR	other	1	20060804-0	Embraer 110P1 Bandeirante	AirNow	BGM	KDDH
 APR	other	1	20060812-0	Antonov 2	Orlan 2000		
 ENR	cargo	3	20060813-0	Lockheed L-100-30 Hercules	Air Algérie	ALG	FRA
 ENR	passDomestic	170	20060822-0	Tupolev 154M	Pulkovo Aviation Enterprise	AAQ	LED
@@ -1476,7 +1476,7 @@ UNK	military	11	20060109-0	Dassault Falcon 20	Iranian Revolutionary Guard Corps 
 ENR	cargo	1	20070723-2	Antonov 26	Djibouti Airlines	DIR	JIB
 APR	passDomestic	1	20070107-0	Beechcraft A100 King Air	Transwest Air	YVC	
 ENR	passDomestic	3	20070206-0	Beechcraft 200 Super King Air	Metro Aviation	GTF	BZN
-ICL	ferry	2	20070112-0	Cessna 525 CitationJet	SunQuest Executive Air Charter	VNY	LGB
+ICL	other	2	20070112-0	Cessna 525 CitationJet	SunQuest Executive Air Charter	VNY	LGB
 ICL	passDomestic	1	20070206-1	Beechcraft 200C Super King Air	Air Turks & Caicos (2003)	NCA	GDT
 ENR	cargo	1	20070215-1	Cessna 208B Grand Caravan	Stellavia	GOM	
 LDG	passDomestic	21	20070307-0	Boeing 737-497	Garuda Indonesia Airways	CGK	JOG
@@ -1508,7 +1508,7 @@ ENR	other	2	20070822-1	Embraer 110P1 Bandeirante	Two Táxi Aéreo	CWB	QDV
 APR	cargo	14	20070826-0	Antonov 32B	Great Lake Business Company	KOO	GOM
 LDG	cargo	8	20070907-0	Antonov 12BP		FKI	GOM
 LDG	passDomestic	90	20070916-0	McDonnell Douglas MD-82	One-Two-Go Airlines	DMK	HKT
-TOF	ferry	1	20070920-0	Shorts SC.7 Skyvan 3-100	Arctic Circle Air Service		ANC
+TOF	other	1	20070920-0	Shorts SC.7 Skyvan 3-100	Arctic Circle Air Service		ANC
 LDG	other	1	20070924-1	Let L-410UVP	Free Airlines	FBM	
 ICL	other	2	20070926-0	Reims Cessna F406 Caravan II	Fugro Airborne Surveys	EBB	KCU
 ENR	cargo	7	20070929-0	Antonov 12BK		FKI	GOM
@@ -1517,9 +1517,9 @@ ENR	other	10	20071007-0	Cessna 208B Grand Caravan	Kapowsin Air Sports		SHN
 APR	other	2	20071007-1	Gulfstream Aerospace G-1159 Gulfstream IIB	V. Duenas Torres	BON	STD
 ENR	passDomestic	17	20071008-0	Let L-410UVP-E10A	Nacional de Aviación	VVC	URI
 ICL	passDomestic	7	20071011-1	Beechcraft B200 Super King Air	Rio Sur	BOG	LET
-ENR	ferry	1	20071017-1	Britten-Norman BN-2A-21 Islander	Auxiliar de Actividades Aérea	LEGC	
+ENR	other	1	20071017-1	Britten-Norman BN-2A-21 Islander	Auxiliar de Actividades Aérea	LEGC	
 LDG	passDomestic	2	20071025-0	Beechcraft A100 King Air	Air Creebec	YVO	YMT
-ICL	ferry	8	20071104-0	Learjet 35A	Reali Táxi Aéreo	SBMT	SDU
+ICL	other	8	20071104-0	Learjet 35A	Reali Táxi Aéreo	SBMT	SDU
 APR	other	2	20071104-1	Beechcraft A100 King Air	private		FRS
 TOF	exec	2	20071106-0	Beechcraft A100 King Air	RHB-JMJ LLC	CNO	VIS
 APR	passDomestic	57	20071130-0	McDonnell Douglas MD-83		IST	ISE
@@ -1529,7 +1529,7 @@ TOF	exec	1	20071226-0	Canadair CL-600-2B16 Challenger 604	Jet Connection Busines
 APR	military	5	20071230-0	GAF Nomad N.22B	Tentara Nasional Indonesia-AL (Navy)	SBG	MES
 ENR	passDomestic	102	20070101-0	Boeing 737-4Q8	AdamAir	SUB	MDC
 APR	passInternational	34	20070109-0	Antonov 26B-100	Aeriantur-M Airlines	ADA	
-ENR	ferry	1	20080111-0	Antonov 2R	Letalska sola Solt		MBX
+ENR	other	1	20080111-0	Antonov 2R	Letalska sola Solt		MBX
 APR	cargo	1	20080114-0	Beechcraft 1900C-1	Alpine Aviation	HNL	LIH
 APR	passDomestic	13	20080119-0	Beechcraft B200 Super King Air	Gira Globo	LAD	NOV
 APR	military	20	20080123-0	CASA C-295M	Polish Air Force	EPKS	EPMI
@@ -1538,19 +1538,19 @@ ENR	private	2	20080201-1	Cessna 525 CitationJet CJ1	J. Symons	AUG	LNK
 ENR	other	3	20080218-0	Cessna 650 Citation III	private	VLN	PZO
 ENR	passDomestic	46	20080221-0	ATR-42-300	Santa Bárbara Airlines	MRD	CCS
 ENR	exec	5	20080304-0	Cessna 500 Citation I	Interstate Helicopters	PWA	MKT
-ENR	ferry	3	20080315-0	Beechcraft 1900D	Wings Aviation	LOS	
+ENR	other	3	20080315-0	Beechcraft 1900D	Wings Aviation	LOS	
 APR	private	5	20080330-0	Cessna 500 Citation I	private	BQH	PUF
 ENR	passDomestic	19	20080403-0	Antonov 28	Blue Wing Airlines	ORG	
 ICL	private	2	20080403-1	Reims Cessna F406 Caravan II	Auric Air	MWZ	MWZ
 UNK	military	5	20080408-0	Antonov 26	Vietnam Air Force	VVGL	VVGL
 ENR	cargo	1	20080409-0	Swearingen SA227-AC Metro III	Airtex Aviation	SYD	BNE
-APR	ferry	8	20080411-0	Antonov 32B	Kata Air Transport	KIV	AYT
+APR	other	8	20080411-0	Antonov 32B	Kata Air Transport	KIV	AYT
 TOF	passDomestic	40	20080415-0	McDonnell Douglas DC-9-51	Hewa Bora Airways	GOM	FKI
 LDG	passDomestic	13	20080416-0	Antonov 32	Equatorial Guinea National Guard	BSG	
 ENR	passDomestic	21	20080502-0	Beechcraft 1900C		WUU	RBX
 UNK	other	1	20080510-0	Antonov 2	Victor Avia		
 ICL	cargo	1	20080523-0	Beechcraft 1900C	Alpine Aviation	BIL	GTF
-APR	ferry	9	20080526-0	Antonov 12BP	Moskovia Airlines	CEK	PEE
+APR	other	9	20080526-0	Antonov 12BP	Moskovia Airlines	CEK	PEE
 LDG	passInternational	5	20080530-0	Airbus A320-233	TACA International Airlines	SAL	TGU
 UNK	other	2	20080607-0	Antonov 2R	private		
 ENR	passDomestic	1	20080607-1	Cessna 208B Grand Caravan	Patagonia Airlines	SCPF	SCLJ
@@ -1572,15 +1572,15 @@ ICL	private	10	20080822-0	Beechcraft A100 King Air		CNY	CDC
 APR	passInternational	65	20080824-0	Boeing 737-219	Itek Air	FRU	IKA
 ENR	passInternational	11	20080824-1	Cessna 208 Caravan I	Aéreo Ruta Maya	GUA	
 ENR	military	11	20080825-0	Lockheed L-100-20 Hercules	Hukbong Himpapawid ng Pilipinas (Philippine Air Force)	DVO	ILO
-ENR	ferry	3	20080830-0	Boeing 737-291	Conviasa	CCS	SELT
+ENR	other	3	20080830-0	Boeing 737-291	Conviasa	CCS	SELT
 ENR	other	3	20080901-0	Convair CV-580	Air Tahoma	LCK	MFD
 APR	passDomestic	17	20080901-1	Beechcraft 1900C-1		FKI	BKY
 TOF	exec	4	20080919-0	Learjet 60	Global Exec Aviation	CAE	VNY
 APR	passDomestic	88	20080914-0	Boeing 737-505	Aeroflot-Nord	SVO	PEE
 ENR	passDomestic	9	20081005-0	Britten-Norman BN-2A-26 Islander	private	MQP	FATP
 LDG	passDomestic	18	20081008-0	de Havilland Canada DHC-6 Twin Otter 300	Yeti Airlines	KTM	LUA
-ICL	ferry	1	20081012-0	Beechcraft 100 King Air	Woolie Enterprises Inc.	BAU	SOD
-ICL	ferry	1	20081103-0	Beechcraft 200 Super King Air	John A. Lyddon	PCV	
+ICL	other	1	20081012-0	Beechcraft 100 King Air	Woolie Enterprises Inc.	BAU	SOD
+ICL	other	1	20081103-0	Beechcraft 200 Super King Air	John A. Lyddon	PCV	
 APR	exec	16	20081104-0	Learjet 45	Mexican Government	SLP	MEX
 ICL	cargo	7	20081113-0	Antonov 12B	British Gulf International Airlines	ORAA	SDA
 APR	private	2	20081123-0	Beechcraft B200 Super King Air	JC Show Ltda (Banda Calypso)	THE	REC
@@ -1595,7 +1595,7 @@ ENR	passDomestic	24	20090207-1	Embraer 110P1 Bandeirante	Manaus Aerotáxi	CIZ	MA
 LDG	exec	2	20090212-1	Dassault Falcon 100	Laret Aviation	VIE	SMV
 APR	private	5	20090215-0	HESA IrAn-140-100	HESA	IFH	IFH
 UNK	military	5	20090218-0	Basler Turbo-67 (BT-67)	Fuerza Aérea Colombiana	PQE	PQE
-TOF	ferry	5	20090220-0	Antonov 12B	Aerolift Company	LXR	NLV
+TOF	other	5	20090220-0	Antonov 12B	Aerolift Company	LXR	NLV
 APR	passInternational	9	20090225-0	Boeing 737-8F2	THY Turkish Airlines	IST	AMS
 ENR	passDomestic	6	20090301-0	Beechcraft 100 King Air	Command Air	SVCS	VLV
 ENR	other	3	20090306-0	National Aerospace Laboratories (NAL) Saras	National Aerospace Laboratories (NAL)	BLR	BLR
@@ -1608,8 +1608,8 @@ ENR	passDomestic	7	20090402-0	Britten-Norman BN-2A Islander	Chemtrad Aviation	TU
 LDG	military	24	20090406-0	Fokker F-27 Friendship 400M	Tentara Nasional Indonesia-AU (Air Force)		BDO
 APR	cargo	6	20090409-0	British Aerospace BAe-146-300	Aviastar Mandiri	DJJ	WMX
 TOF	passDomestic	1	20090417-0	Cessna 208B Grand Caravan	Línea Turística Aereotuy - LTA	CAJ	PMV
-ENR	ferry	7	20090429-0	Boeing 737-275	Bako Air	BZV	HRE
-APR	ferry	3	20090430-0	Antonov 2	Yakutsk ASK ROSTO	UERL	YKS
+ENR	other	7	20090429-0	Boeing 737-275	Bako Air	BZV	HRE
+APR	other	3	20090430-0	Antonov 2	Yakutsk ASK ROSTO	UERL	YKS
 LDG	other	1	20090510-0	British Aerospace 3212 Jetstream 32	private		UII
 APR	military	99	20090520-0	Lockheed C-130H Hercules	Tentara Nasional Indonesia-AU (Air Force)	HLP	WARI
 APR	exec	14	20090522-0	Beechcraft B300 Super King Air 350	Santa Coloma Investimentos e Participações Ltda.	CGH	SBTV
@@ -1630,7 +1630,7 @@ APR	cargo	6	20090826-0	Antonov 12BK	Aero Fret Business	PNR	BZV
 ENR	military	5	20090907-0	GAF Nomad N.24A	Tentara Nasional Indonesia-AL (Navy)	LBW	TRK
 UNK	military	7	20090922-0	Ilyushin 76MD Simorgh	Islamic Republic of Iran Air Force - IRIAF	THR	THR
 APR	other	1	20091006-2	Antonov 2R	Bashmia Aero Spray		
-TOF	ferry	1	20090924-0	British Aerospace 4121 Jetstream 41	SA Airlink	DUR	PZB
+TOF	other	1	20090924-0	British Aerospace 4121 Jetstream 41	SA Airlink	DUR	PZB
 ENR	military	11	20091009-0	CASA C-212 Aviocar 200		PAP	PAP
 ICL	cargo	4	20091017-0	Douglas DC-3C (C-47D)	Victoria Air	MNL	PPS
 ICL	cargo	6	20091021-0	Boeing 707-330C		SHJ	KRT
@@ -1640,7 +1640,7 @@ APR	exec	5	20091026-0	British Aerospace BAe-125-800B	S-Air	VKO	MSQ
 ENR	private	4	20091026-1	Beechcraft B100 King Air	Mazak Properties Inc.	UVA	LEE
 ENR	military	2	20091029-0	Cessna 208B Grand Caravan (C-98)	Força Aérea Brasileira - FAB	CZS	TBT
 ENR	military	7	20091029-1	Lockheed HC-130H Hercules	United States Coast Guard	MCC	MCC
-ICL	ferry	11	20091101-0	Ilyushin 76MD	Russian Ministry of Interior	MJZ	IKT
+ICL	other	11	20091101-0	Ilyushin 76MD	Russian Ministry of Interior	MJZ	IKT
 ENR	military	4	20091102-1	PZL-Mielec M28-05PI Skytruck	Kepolisian Negara Republik Indonesia (Indonesian Police)	DJJ	LII
 APR	cargo	1	20091109-0	Beechcraft 1900D	Blue Bird Aviation	WIL	MGQ
 ICL	cargo	3	20091115-0	Cessna 208B Grand Caravan		ERS	NGV
@@ -1650,11 +1650,11 @@ TOF	cargo	3	20091128-0	McDonnell Douglas MD-11F	Avient Aviation	PVG	FRU
 APR	passDomestic	2	20091209-0	Beechcraft A100 King Air	Exact Air	YVO	YRC
 ENR	other	2	20091217-0	Dassault Falcon 20D	FL Aviation Group Inc.	JBQ	FXE
 TXI	passInternational	1	20091112-0	Canadair CL-600-2B19 Regional Jet CRJ-100ER		KGL	EBB
-APR	ferry	2	20100105-0	Learjet 35A	Royal Air Freight	PTK	PWK
+APR	other	2	20100105-0	Learjet 35A	Royal Air Freight	PTK	PWK
 ICL	passInternational	90	20100125-0	Boeing 737-8AS (WL)	Ethiopian Airlines	BEY	ADD
 APR	passDomestic	2	20100125-1	Embraer 110C Bandeirante	Piquiatuba Táxi Aéreo	BEL	SNWR
 ICL	military	9	20100128-0	GAF Nomad N.22B	Hukbong Himpapawid ng Pilipinas (Philippine Air Force)	CBO	ZAM
-ENR	ferry	2	20100214-0	Cessna 550B Citation Bravo	Time Air	PRG	KSD
+ENR	other	2	20100214-0	Cessna 550B Citation Bravo	Time Air	PRG	KSD
 ICL	private	2	20100322-0	Embraer 120ER Brasilia	Airnorth	DRW	DRW
 APR	other	96	20100410-0	Tupolev 154M	Polish Air Force	WAW	XUBS
 ENR	military	4	20100412-0	North American Rockwell T-39N Sabreliner	United States Navy	NPA	
@@ -1772,14 +1772,14 @@ LDG	private	5	20120315-2	Cessna 501 Citation I/SP	private	VNC
 ICL	cargo	2	20120315-0	Convair CV-340	Jet One Express	SJU	SXM
 ENR	military	5	20120315-1	Lockheed C-130J-30 Hercules	Royal Norwegian Air Force - RNoAF	EVE	KRN
 APR	exec	5	20120301-0	Cessna 750 Citation X	Asia Today Ltd.	LNZ	EDFE
-ICL	ferry	1	20120228-0	Cessna 208B Grand Caravan	CTA - Cleiton Taxi Aéreo	SWFN	MAO
+ICL	other	1	20120228-0	Cessna 208B Grand Caravan	CTA - Cleiton Taxi Aéreo	SWFN	MAO
 LDG	exec	6	20120212-0	Gulfstream G-IV		GOM	BKY
 APR	cargo	3	20120130-0	Antonov 28	TRACEP-Congo Aviation	BKY	
-LDG	ferry	3	20120713-0	Gulfstream G-IV	Universal Jet Aviation	NCE	CTT
+LDG	other	3	20120713-0	Gulfstream G-IV	Universal Jet Aviation	NCE	CTT
 TXI	other	1	20120717-0	Canadair CL-600-2B19 Regional Jet CRJ-200ER	Skywest Airlines	SGU	
 LDG	other	1	20120722-0	Let L-410UVP-E3	DOSAAF		
 APR	exec	8	20120728-1	Beechcraft B200 Super King Air	Vilma Alimentos	PLU	JDF
-APR	ferry	2	20120802-0	Cessna 500 Citation I	Airnor - Aeronaves del Noroeste	OVD	SCQ
+APR	other	2	20120802-0	Cessna 500 Citation I	Airnor - Aeronaves del Noroeste	OVD	SCQ
 APR	passDomestic	32	20120819-0	Antonov 26-100	Alfa Airlines	KRT	
 TOF	passDomestic	4	20120822-0	Let L-410UVP-E9	Mombasa Air Safari		
 ENR	other	3	20120830-0	Britten-Norman BN-2B-26 Islander	Dapeng Airlines	TSA	TTT
@@ -1800,13 +1800,13 @@ APR	exec	2	20121219-0	Beechcraft B100 King Air	Stinger Welding Inc.
 LDG	passDomestic	1	20121222-0	Swearingen SA227-AC Metro III		YWG	YSK
 LDG	passDomestic	2	20121225-0	Fokker 100	Air Bagan	MDL	HEH
 ENR	military	27	20121225-1	Antonov 72-100	Kazakhstan Border Guards	TSE	CIT
-LDG	ferry	5	20121229-0	Tupolev 204-100V	Red Wings Airlines	PED	VKO
+LDG	other	5	20121229-0	Tupolev 204-100V	Red Wings Airlines	PED	VKO
 ENR	passDomestic	2	20120629-0	Embraer ERJ 190-100 LR  (ERJ-190LR)	Tianjin Airlines	HTN	URC
 TOF	passDomestic	10	20130707-0	de Havilland Canada DHC-3T Texas Turbine Otter	Rediske Air	SXQ	
 APR	passDomestic	4	20131129-1	Cessna 208B Grand Caravan	Era Alaska	BET	KSM
 ENR	passDomestic	6	20130104-0	Britten-Norman BN-2A-27 Islander	Transaereo 5074	LRV	CCS
 ENR	cargo	1	20130115-0	Cessna 208B Super Cargomaster	Martinaire	PLN	
-ENR	ferry	3	20130123-0	de Havilland Canada DHC-6 Twin Otter 300	Kenn Borek Air		
+ENR	other	3	20130123-0	de Havilland Canada DHC-6 Twin Otter 300	Kenn Borek Air		
 APR	passDomestic	21	20130129-0	Canadair CL-600-2B19 Regional Jet CRJ-200ER	SCAT	KOV	ALA
 APR	military	11	20130211-0	IPTN/CASA CN-235-220	Republique de Guinée	CKY	ROB
 LDG	passDomestic	5	20130213-0	Antonov 24RV	South Airlines	ODS	DOK
@@ -1817,7 +1817,7 @@ ENR	passDomestic	9	20130306-0	Beechcraft B200 King Air	Aero Transporte SA - ATSA
 APR	cargo	2	20130308-0	Beechcraft 1900C-1	ACE Air Cargo	AKN	DLG
 ICL	exec	2	20130317-0	Hawker Beechcraft 390 Premier IA	Digicut Systems	RVS	SBN
 ENR	other	1	20130323-0	Antonov 2R	Yug Line		
-APR	ferry	1	20130407-0	Beechcraft 1900C-1	Sahel Air Service	OND	TMS
+APR	other	1	20130407-0	Beechcraft 1900C-1	Sahel Air Service	OND	TMS
 ENR	military	4	20130427-0	Beechcraft MC-12W Liberty (King Air 350)	United States Air Force - USAF	KDH	KDH
 TOF	cargo	7	20130429-0	Boeing 747-428BCF	National Airlines (National Air Cargo)	BPM	DWC
 ICL	exec	6	20130430-0	Beechcraft 300 Super King Air	Procuraduría General de la República (PGR)	ZCL	MEX
@@ -1848,7 +1848,7 @@ ENR	military	4	20131005-0	de Havilland Canada DHC-8-202	United States Air Force 
 TOF	passDomestic	16	20131003-0	Embraer 120RT Brasilia	Associated Aviation	LOS	AKR
 LDG	private	4	20130929-1	Cessna 525A CitationJet CJ2	CREX-MML LLC	SUN	SMO
 ENR	private	1	20130925-0	Cessna 208B Grand Caravan	Morningstar Air Express	YAM	YAM
-APR	ferry	2	20130909-0	Dornier 228-202K	Transportes Aéreos Corporativos - CorpFlite		KNA
+APR	other	2	20130909-0	Dornier 228-202K	Transportes Aéreos Corporativos - CorpFlite		KNA
 UNK	other	1	20130822-1	De Havilland Canada DHC-3T Vazar Turbine Otter	Transwest Air		
 APR	cargo	2	20130814-0	Airbus A300F4-622R	United Parcel Service - UPS	SDF	BHM
 LDG	military	4	20130809-1	Antonov 12	Ethiopian Air Force	DIR	MGQ

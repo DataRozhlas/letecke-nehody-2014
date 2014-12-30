@@ -7,11 +7,10 @@ natures =
   "exec"              : new Nature "VIP lety", "exec"                                 , \#1f78b4, 2
   "private"           : new Nature "Soukromé lety", "private"                         , \#a6cee3, 3
   "cargo"             : new Nature "Nákladní přeprava", "cargo"                       , \#984ea3, 4
-  "ferry"             : new Nature "Přelet letounu", "ferry"                          , \#a65628, 5
   "military"          : new Nature "Armádní lety", "military"                         , \#4daf4a, 6
   "other"             : new Nature "Ostatní", "other"                                 , \#999999, 7
 
-ig.natures = for id, nature of natures => nature
+ig.nature = for id, nature of natures => nature
 
 class Phase
   (@name, @id) ->
@@ -28,7 +27,7 @@ phases =
   TXI: new Phase "Pojíždění", \TXI
   PBT: new Phase "Posunování a vytahování od gatu", \PBT
 
-ig.phases = for id, phase of phases => phase
+ig.phase = for id, phase of phases => phase
 
 ig.prepareData = ->
   stats = d3.tsv.parse do
