@@ -13,19 +13,19 @@ natures =
 ig.nature = for id, nature of natures => nature
 
 class Phase
-  (@name, @id) ->
+  (@name, @id, @color, @order, @altName) ->
 
 phases =
-  APR: new Phase "Přiblížení k letišti", \APR
-  ENR: new Phase "Traťový let", \ENR
-  MNV: new Phase "Manévrování", \MNV
-  ICL: new Phase "Stoupání těsně po vzletu", \ICL
-  TOF: new Phase "Vzlet", \TOF
-  STD: new Phase "Stání (na letišti)", \STD
-  UNK: new Phase "Neznámý", \UNK
-  LDG: new Phase "Přistání", \LDG
-  TXI: new Phase "Pojíždění", \TXI
-  PBT: new Phase "Posunování a vytahování od gatu", \PBT
+  TOF: new Phase "Vzlet", \TOF                            , \#33a02c , 0, "vzletu"
+  ICL: new Phase "Stoupání těsně po vzletu", \ICL         , \#b2df8a , 1, "stoupání těsně po vzletu"
+  ENR: new Phase "Traťový let", \ENR                      , \#1f78b4 , 2, "traťovém letu"
+  APR: new Phase "Přiblížení k letišti", \APR             , \#fb9a99 , 3, "přiblížení k letišti"
+  LDG: new Phase "Přistání", \LDG                         , \#e31a1c , 4, "přistání"
+  MNV: new Phase "Manévrování", \MNV                      , \#f781bf , 5, "manévrování"
+  STD: new Phase "Stání (na letišti)", \STD               , \#fdbf6f , 6, "stání (na letišti)"
+  TXI: new Phase "Pojíždění", \TXI                        , \#ff7f00 , 7, "pojíždění"
+  PBT: new Phase "Posunování a vytlačování od gatu", \PBT , \#fed9a6 , 8, "posunování a vytlačování od gatu"
+  UNK: new Phase "Neznámý", \UNK                          , \#999999 , 9, "neznámé fázi letu"
 
 ig.phase = for id, phase of phases => phase
 
