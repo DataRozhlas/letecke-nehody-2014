@@ -15,6 +15,7 @@ class ig.IncidentList
     @element.classed \active yes
     @parentElement.classed \push-away-barchart year.year < 2000
     @header.html "Nehody při #{natureOrPhase.altName} v&nbsp;roce&nbsp;#{year.year}"
+    @element.node!scrollTop = 0
     @list.selectAll \li .remove!
     events = events.slice!sort (a, b) -> b.fatalities - a.fatalities
     @list.selectAll \li .data events .enter!append \li
