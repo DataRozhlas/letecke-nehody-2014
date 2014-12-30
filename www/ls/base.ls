@@ -5,7 +5,10 @@ init = ->
     ..html "Nejvíce úmrtí si obvykle připisují vnitrostátní linky"
   container.append \h2
     ..html "Rok 2014 však byl výjimkou, většina obětí leteckých nehod letěla mezinárodně."
-  new ig.Barchart container, data, \nature
+
+  incidentList = new ig.IncidentList container
+  barchart = new ig.Barchart container, data, \nature, incidentList
+
 
 
 if d3?
