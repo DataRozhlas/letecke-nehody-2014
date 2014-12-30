@@ -12,6 +12,7 @@ class ig.IncidentList
     @list = @element.append \ul
 
   display: (year, natureOrPhase, events) ->
+    console.log events.0
     @element.classed \active yes
     @parentElement.classed \push-away-barchart year.year < 2000
     @header.html "Nehody při #{natureOrPhase.altName} v&nbsp;roce&nbsp;#{year.year}"
@@ -31,12 +32,17 @@ class ig.IncidentList
           "#{it.fatalities} #suff"
       ..append \span
         ..attr \class \dep-dest
-          ..append \span
+          ..append \abbr
             ..attr \class \dep
-            ..html -> it.dep
+            ..html -> it.dep || "???"
+            ..attr \title -> it.dep_full
           ..append \span
+            ..attr \class \sep
+            ..html " – "
+          ..append \abbr
             ..attr \class \dest
-            ..html -> it.dest
+            ..html -> it.dest || "???"
+            ..attr \title -> it.dest_full
       ..append \span
         ..attr \class \date
         ..html -> "#{it.date.getDate!}. #{months[it.date.getMonth!]} #{it.date.getFullYear!}"
