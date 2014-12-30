@@ -23,6 +23,7 @@ class Category
 
 class ig.Barchart
   (@parentElement, @data, @groupBy) ->
+    graphTip = new ig.GraphTip @
     @element = @parentElement.append \div
       ..attr \class "barchart #{@groupBy}"
     years = [1989 to 2014].map -> new Year it
@@ -42,6 +43,7 @@ class ig.Barchart
       ..range [0 100]
     @cols = @element.append \div
       ..attr \class "cols"
+    self = @
     @col = @cols.selectAll \div.col .data years .enter!append \div
       ..attr \class \col
       ..style \width "#{100 / years.length}%"
@@ -54,6 +56,9 @@ class ig.Barchart
           ..attr \class \category
           ..style \height ~> "#{@yScale it.fatalities}%"
           ..style \background-color ~> it.events.0.[@groupBy].color
+          ..on \mouseover ->
+            graphTip.display @, "V roce #{it.year.year} zahynulo při #{it.events.0[self.groupBy].altName}<br><strong>#{ig.utils.formatNumber it.fatalities} osob</strong> při <strong>#{it.events.length} nehodách</strong><br><em>Klikněte pro podrobný výpis</em>"
+          ..on \mouseout -> graphTip.hide!
         ..append \div
           ..attr \class \fatalities-count
             ..html ->

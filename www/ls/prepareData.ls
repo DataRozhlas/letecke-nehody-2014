@@ -1,14 +1,14 @@
 class Nature
-  (@name, @id, @color, @order) ->
+  (@name, @id, @color, @order, @altName) ->
 
 natures =
-  "passDomestic"      : new Nature "Vnitrostátní osobní přeprava", "passDomestic"     , \#fb9a99, 0
-  "passInternational" : new Nature "Mezinárodní osobní přeprava", "passInternational" , \#e41a1c, 1
-  "exec"              : new Nature "VIP lety", "exec"                                 , \#1f78b4, 2
-  "private"           : new Nature "Soukromé lety", "private"                         , \#a6cee3, 3
-  "cargo"             : new Nature "Nákladní přeprava", "cargo"                       , \#984ea3, 4
-  "military"          : new Nature "Armádní lety", "military"                         , \#4daf4a, 6
-  "other"             : new Nature "Ostatní", "other"                                 , \#999999, 7
+  "passDomestic"      : new Nature "Vnitrostátní osobní přeprava", "passDomestic"     , \#fb9a99, 0, "vnitrostátní osobní přepravě"
+  "passInternational" : new Nature "Mezinárodní osobní přeprava", "passInternational" , \#e41a1c, 1, "mezinárodní osobní přepravě"
+  "exec"              : new Nature "VIP lety", "exec"                                 , \#1f78b4, 2, "VIP letech"
+  "private"           : new Nature "Soukromé lety", "private"                         , \#a6cee3, 3, "soukromých letech"
+  "cargo"             : new Nature "Nákladní přeprava", "cargo"                       , \#984ea3, 4, "nákladní přepravě"
+  "military"          : new Nature "Armádní lety", "military"                         , \#4daf4a, 6, "armádní letech"
+  "other"             : new Nature "Ostatní", "other"                                 , \#999999, 7, "letech ostatních kategorií"
 
 ig.nature = for id, nature of natures => nature
 
