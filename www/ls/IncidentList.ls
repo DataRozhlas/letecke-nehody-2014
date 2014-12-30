@@ -7,11 +7,13 @@ class ig.IncidentList
     ig.utils.backbutton @element
       ..on \click ~>
         @element.classed \active no
+        @parentElement.classed \push-away-barchart no
     @header = @element.append \h3
     @list = @element.append \ul
 
   display: (year, natureOrPhase, events) ->
     @element.classed \active yes
+    @parentElement.classed \push-away-barchart year.year < 2000
     @header.html "Nehody při #{natureOrPhase.altName} v&nbsp;roce&nbsp;#{year.year}"
     @list.selectAll \li .remove!
     events = events.slice!sort (a, b) -> b.fatalities - a.fatalities
