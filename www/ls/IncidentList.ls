@@ -12,7 +12,6 @@ class ig.IncidentList
     @list = @element.append \ul
 
   display: (year, natureOrPhase, events) ->
-    console.log events.0
     @element.classed \active yes
     @parentElement.classed \push-away-barchart year.year < 2000
     @header.html "Nehody při #{natureOrPhase.altName} v&nbsp;roce&nbsp;#{year.year}"
