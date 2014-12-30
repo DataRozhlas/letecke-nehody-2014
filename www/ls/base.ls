@@ -17,6 +17,7 @@ init = ->
 
     incidentList = new ig.IncidentList container
     barchart = new ig.Barchart container, data, \nature, incidentList
+  container.append \p .html "Po najetí myši nad graf se vám zobrazí podrobnosti o daném roce"
 
 
 
