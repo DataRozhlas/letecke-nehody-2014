@@ -4,6 +4,9 @@ class ig.IncidentList
   (@parentElement) ->
     @element = @parentElement.append \div
       ..attr \class \incident-list
+    ig.utils.backbutton @element
+      ..on \click ~>
+        @element.classed \active no
     @header = @element.append \h3
     @list = @element.append \ul
 
